@@ -14,16 +14,16 @@ Description: A high performance web server and reverse proxy server
 
 Package: nginx-stable
 Architecture: amd64
-Version: 1.26.1
+Version: 1.26.2
 Maintainer: apt@softvisio.net
 Installed-Size: 6616
 Depends: libpcre3
-Filename: dists/24.04/main/binary-amd64/nginx-stable_1.26.1_amd64.deb
-Size: 3080264
-MD5sum: 4306c02445121c25ad01835d9bdf07c5
-SHA1: 2b6cbf9bf6e60d10102a4732e2a9196ba8bd79ec
-SHA256: b6512b8ea0fcdd5ccf35500567785624281602090bee2504023cbcb8f932576a
-SHA512: b68e4f71b996c87465b85e38e17061429c7ee943fd1dfad8c1adf88112ddc13e1c98582989189c561345a6367e21040adac4b01161fb2b4ab117e2687842ab7c
+Filename: dists/24.04/main/binary-amd64/nginx-stable_1.26.2_amd64.deb
+Size: 3080400
+MD5sum: ff3b6620d43306961c851bf51032f740
+SHA1: 96088eecd91ca6bcd09240858bc3f760bd291042
+SHA256: 7577d2b716d6fa44bc152521eab82acfb7ccb21f80f8bf8140e90bbd22f0b120
+SHA512: 5eba38444fb33fa40e8212fb39ce5b8a1ccdabb17ecbc243d6d7912f652395a40c55874d6c2c8938b7bc63b91596652d2b4fa3f78502c507ff93119fd0b68dac
 Description: A high performance web server and reverse proxy server
 
 Package: postgresql-16-softvisio-admin

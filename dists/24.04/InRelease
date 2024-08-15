@@ -4,25 +4,25 @@ Hash: SHA512
 Architectures: all amd64
 Codename: 24.04
 Components: main
-Date: Thu, 15 Aug 2024 04:38:47 +0000
+Date: Thu, 15 Aug 2024 04:41:56 +0000
 Label: Softvisio repository
 Suite: 24.04
 MD5Sum:
  5cd68c97cddbaccd1521ddeb4c92b98f             3140 main/binary-all/Packages
- e833aa8f5b878dc83db76172accc7bea             2292 main/binary-amd64/Packages
+ e0018f6a05db37ea24b2ba0a4f70c9b9             2292 main/binary-amd64/Packages
 SHA1:
  421b0616521883df7ee9f006bae13fba729dde03             3140 main/binary-all/Packages
- 56e4b7f8b4de0a00555226bad4e8b5d4f081e2d3             2292 main/binary-amd64/Packages
+ 8840a5ceb12c67a52da90c50d52d362c2f06ad62             2292 main/binary-amd64/Packages
 SHA256:
  5a8c8b9c06b103c5038d6db6db565e07551425429ca385944425cd9dd1ecab85             3140 main/binary-all/Packages
- 7913a612c99286a58d83fd2e90e3c1da9b822123c05446842f5881c758ef5072             2292 main/binary-amd64/Packages
+ 1248230b245b772f3c87d45add496d3fa3446f4695234f55843409583405d73b             2292 main/binary-amd64/Packages
 SHA512:
  19dcc0a76a9ce4199fcce09d3e86c38d1a1e6ea6d6791194c524d9859765d943f1e0b91a8d08065d756141875b388376f6ecfe05e74baff22abc5def416be72f             3140 main/binary-all/Packages
- 68a0ee71a7e86f219486fcb365a4fae59b56742599ce27dfebb834eada27411b4b6386ab62e7dbeaa00416ed5241c2b6eaa8572f3decb3e09c6d2e83ec5065e4             2292 main/binary-amd64/Packages
+ 09cae04e1a49c2f039c6345e791ef883c55cc4f71536b1d71dbe33520aae6268559756961fcde113fa0d1712a9751115537d1f626700c3829b525bfad757c920             2292 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iIgEARYKADAWIQSy+GrmQpVUQ/2Ddb/+uZP9avn7SwUCZr2GVxIcYXB0QHNvZnR2
-aXNpby5uZXQACgkQ/rmT/Wr5+0taXQD9EObctMRDV7nIyDsPxZpe6Z1U5oIQeSs4
-aLLpY7GXREIBAIaMMBydytzcfTBHgBl/DagwdX+2SR4GizA2/ZqC018L
-=lCk3
+iIgEARYKADAWIQSy+GrmQpVUQ/2Ddb/+uZP9avn7SwUCZr2HFBIcYXB0QHNvZnR2
+aXNpby5uZXQACgkQ/rmT/Wr5+0sn/gD/Q+cjeje/L+URj5ZbU5sBFqti8/i4CsKI
+Mms21w+B9IkA/1NvyWbM97M0tkChX9dX33iGzit1cgkICa/gNlqrNrwG
+=DSrf
 -----END PGP SIGNATURE-----

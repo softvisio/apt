@@ -2,7 +2,7 @@
 
 set -e
 
-POSTGRESQL_VERSION=16
+POSTGRESQL_VERSION=17
 
 apt-get update
 

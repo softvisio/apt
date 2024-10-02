@@ -54,3 +54,31 @@ SHA256: 9a8e0e9e358efd655952b309f7cafc402cbf630756ef03864e55e70c7712e718
 SHA512: 10ddb754e0a336d8999e078acd1968b9caf5f64ab0bb108939a24e0fef9715a8fb14d679ce4e1f1b57753a445b03f5efad8621852c5e4368dd61ab62dbcd252d
 Description: PostgreSQL types extension
 
+Package: postgresql-17-softvisio-admin
+Architecture: amd64
+Version: 1.1.7
+Maintainer: apt@softvisio.net
+Installed-Size: 48
+Depends:
+Filename: dists/24.04/main/binary-amd64/postgresql-17-softvisio-admin_1.1.7_amd64.deb
+Size: 2026
+MD5sum: 7987d29b686ae36e9d70e7a06b4214d5
+SHA1: 7482517ec84a2ba046e9198b1903bb165285052b
+SHA256: 55331192b0b3f9baa609fb2d0eb9ff8bed0c2fd5dddb727ef1ada5e08717d05d
+SHA512: ab2060746f48999a033c59c9c8c693674744c953f442fac056dd519e32a2e11a4240bdef32a215ff1de24d039287da8084e579a305155f0ab69ad3f62e564588
+Description: PostgreSQL admin extension
+
+Package: postgresql-17-softvisio-types
+Architecture: amd64
+Version: 1.1.3
+Maintainer: apt@softvisio.net
+Installed-Size: 44
+Depends:
+Filename: dists/24.04/main/binary-amd64/postgresql-17-softvisio-types_1.1.3_amd64.deb
+Size: 1558
+MD5sum: 734b0c6946a1795b2915a87a5a561624
+SHA1: edf03c7beccf9c8101053f1979402911838298e1
+SHA256: ec79e1f885aefab78a0097dec8d717a2be63feaf23289f840fe75073ce02e3f0
+SHA512: 23ea9df8255ac029ac07f876c78047a9d22702d6de68a276ca079b3c68e0c1ca0e4d4cff32524455e422c73a243fb3e37511c91f33d5550b07e9661920916c87
+Description: PostgreSQL types extension
+

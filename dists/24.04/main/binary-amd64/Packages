@@ -26,34 +26,6 @@ SHA256: 7577d2b716d6fa44bc152521eab82acfb7ccb21f80f8bf8140e90bbd22f0b120
 SHA512: 5eba38444fb33fa40e8212fb39ce5b8a1ccdabb17ecbc243d6d7912f652395a40c55874d6c2c8938b7bc63b91596652d2b4fa3f78502c507ff93119fd0b68dac
 Description: A high performance web server and reverse proxy server
 
-Package: postgresql-16-softvisio-admin
-Architecture: amd64
-Version: 1.1.5
-Maintainer: apt@softvisio.net
-Installed-Size: 48
-Depends:
-Filename: dists/24.04/main/binary-amd64/postgresql-16-softvisio-admin_1.1.5_amd64.deb
-Size: 2026
-MD5sum: 4083de26077ed40059656d691f0b9397
-SHA1: 94de49aed7ebeb41cc5b08a2a1925eacd853eb0c
-SHA256: aef6e6a9a6596342242cf9659c0e2e6e742396244d09cfa611860b33a1b1a89a
-SHA512: b46025cb6cc756c2209ebd35a2cc3f361ca58d47b6d926ba42dec9cc1f48ecff95ae8731415ee4388b8e48b397e43414722467993ebd7c033f5cf5afab3befc7
-Description: PostgreSQL admin extension
-
-Package: postgresql-16-softvisio-types
-Architecture: amd64
-Version: 1.1.1
-Maintainer: apt@softvisio.net
-Installed-Size: 44
-Depends:
-Filename: dists/24.04/main/binary-amd64/postgresql-16-softvisio-types_1.1.1_amd64.deb
-Size: 1556
-MD5sum: 4ff662511f897a4af0922528b8a65206
-SHA1: 777b842577bc0ef4d8dfc89a7647d7f4c7482cab
-SHA256: 9a8e0e9e358efd655952b309f7cafc402cbf630756ef03864e55e70c7712e718
-SHA512: 10ddb754e0a336d8999e078acd1968b9caf5f64ab0bb108939a24e0fef9715a8fb14d679ce4e1f1b57753a445b03f5efad8621852c5e4368dd61ab62dbcd252d
-Description: PostgreSQL types extension
-
 Package: postgresql-17-softvisio-admin
 Architecture: amd64
 Version: 1.1.7

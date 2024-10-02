@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: all amd64
 Codename: 24.04
 Components: main
-Date: Wed, 02 Oct 2024 21:08:29 +0000
+Date: Wed, 02 Oct 2024 21:09:09 +0000
 Label: Softvisio repository
 Suite: 24.04
 MD5Sum:
@@ -21,8 +21,8 @@ SHA512:
  35cfd080f5c91f865bceecafefb7a0a283611104e4074b8de9dd6281457b5bd12f1e1d9bdd0039797f17890038a0f0291c809ff2ba0d38c1f0d6a140b6bc7d4b             3428 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iIgEARYKADAWIQSy+GrmQpVUQ/2Ddb/+uZP9avn7SwUCZv22TRIcYXB0QHNvZnR2
-aXNpby5uZXQACgkQ/rmT/Wr5+0vu9gEAqyqA0mBNUhW/mt2NqYjnWRsvQ9NqASJ9
-4wRfc9BwN4IA/AwVZG/ELhyLZtdd/SLsLcG9uxFY8wkJKjpsRLiIfkkO
-=hsix
+iIgEARYKADAWIQSy+GrmQpVUQ/2Ddb/+uZP9avn7SwUCZv22dRIcYXB0QHNvZnR2
+aXNpby5uZXQACgkQ/rmT/Wr5+0srywEAhjYeA8lFjpW7slovu/8YtLHFYWtwt8Ks
+i2MzBZOVCbcA/RN6gSL3vIC66YjIIdrHyWxlCeVLt9SKddDgbIpyBdMO
+=x8m5
 -----END PGP SIGNATURE-----

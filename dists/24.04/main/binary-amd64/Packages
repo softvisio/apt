@@ -1,15 +1,15 @@
 Package: nginx-latest
 Architecture: amd64
-Version: 1.27.1
+Version: 1.27.2
 Maintainer: apt@softvisio.net
-Installed-Size: 6616
+Installed-Size: 6656
 Depends: libpcre3
-Filename: dists/24.04/main/binary-amd64/nginx-latest_1.27.1_amd64.deb
-Size: 3081112
-MD5sum: ce2fd59e17724a564e1e181f86a6400e
-SHA1: ccc7ba9154af32f09804a2c23d1d5b8744baa4fa
-SHA256: 722368ec610a99ac90c0eb6a67cf22ee760cc324a417719a3ac2f3e7e571651f
-SHA512: 2276d19eb02903662d3e66b20a4dc52e12adffabbcbf5451318e22aeec381f70fa12a19b958f1f93071db2e1fa0da7cace819102ff03a6892d00764d2822e51f
+Filename: dists/24.04/main/binary-amd64/nginx-latest_1.27.2_amd64.deb
+Size: 3101550
+MD5sum: af760c1ac709841df23f0cbb8e85eaa4
+SHA1: d5b5ecb57516a09598b88e115c22c59f1d0c60b4
+SHA256: 61eb3dec8d2290695f69cdea48006c3a913a1ce1249045f24a5ec34de06b261e
+SHA512: 40a5926f101686f932ed20e5ade91c685405ad7775f893823df237c3c8c96462cbfd26332cfe9a5090f7c55fb72f5a1e9d44c74bc9fdce4337ff7866a1adaa9d
 Description: A high performance web server and reverse proxy server
 
 Package: nginx-stable

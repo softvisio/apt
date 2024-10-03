@@ -28,29 +28,29 @@ Description: A high performance web server and reverse proxy server
 
 Package: postgresql-17-softvisio-admin
 Architecture: amd64
-Version: 1.2.3
+Version: 1.2.4
 Maintainer: apt@softvisio.net
-Installed-Size: 56
+Installed-Size: 64
 Depends:
-Filename: dists/24.04/main/binary-amd64/postgresql-17-softvisio-admin_1.2.3_amd64.deb
-Size: 2420
-MD5sum: 4d973e24b70e0e8b045f5d62180b8205
-SHA1: f669abf1dd2b003c2e33decd5a1cd4a5a896545b
-SHA256: 337265bf7bed230a19b6f15d4f4635c9d74488da14a4e62d2115ce0103441d2a
-SHA512: ab49a9571bfe9abb8ae06128be7b9064843ea0cdec6cb5c4d377c17a871a8680641ed6b16d2630f65f64e98eb55ad01baa66925823317814250f512db537ddbf
+Filename: dists/24.04/main/binary-amd64/postgresql-17-softvisio-admin_1.2.4_amd64.deb
+Size: 2772
+MD5sum: b94a9d5bbb8af6654b3920d4bb3f0f8b
+SHA1: fe5692d8f4b68e5eb6e4a98b174d257284b1720e
+SHA256: 4d1f34071a169330cdc843e7de236bc0c48ec4aed1cedece4f6d233838b6e524
+SHA512: a52b6d032fb682424a0423dc672f34841b0f8f6b3736730f282b8aaf3903aea11389946894310662601bd5d9e6c2098b2e81f0ff29b3058e04bc4fbe272c8a3c
 Description: PostgreSQL admin extension
 
 Package: postgresql-17-softvisio-types
 Architecture: amd64
-Version: 1.1.5
+Version: 1.1.6
 Maintainer: apt@softvisio.net
-Installed-Size: 48
+Installed-Size: 44
 Depends:
-Filename: dists/24.04/main/binary-amd64/postgresql-17-softvisio-types_1.1.5_amd64.deb
-Size: 1580
-MD5sum: dd4d17f44657c2a9ec6dba9906ccd0a7
-SHA1: 24f66b88c2feac8a3ee91f64663545f17e11f686
-SHA256: f6fe5f0f63fd00ce63e380f0871abf126507eabfd2c777cb5a9e673fe104be4b
-SHA512: e3208d2532efaf9acd4b6dd1c1250196f3a411faf2f04675a1dec86db9c308f013c3cd142a06965ae1a55cc3b18b6c5142ce046ff2be3b40f5538ac9ce87be73
+Filename: dists/24.04/main/binary-amd64/postgresql-17-softvisio-types_1.1.6_amd64.deb
+Size: 1556
+MD5sum: cfb0f2e65eadd54dc2f21a96f7806f22
+SHA1: 4e791956eeab7f3cdeb17366ee85dfda689abd63
+SHA256: ecf7fb5c90bad08b3fddd9334d762121060fd4d92768e4ef2a6091bd7d68d8d3
+SHA512: a774b7456a0f19591e8310dbf377b666c739d3a97bbe7ac2db4d00647ece0190de425b8d6b7de173f4ef82af9886d7117664d0beea4dbb522f0969db869df779
 Description: PostgreSQL types extension
 

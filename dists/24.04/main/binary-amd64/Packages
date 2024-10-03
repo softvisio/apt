@@ -28,16 +28,16 @@ Description: A high performance web server and reverse proxy server
 
 Package: postgresql-17-softvisio-admin
 Architecture: amd64
-Version: 1.2.4
+Version: 1.2.5
 Maintainer: apt@softvisio.net
-Installed-Size: 64
+Installed-Size: 72
 Depends:
-Filename: dists/24.04/main/binary-amd64/postgresql-17-softvisio-admin_1.2.4_amd64.deb
-Size: 2772
-MD5sum: b94a9d5bbb8af6654b3920d4bb3f0f8b
-SHA1: fe5692d8f4b68e5eb6e4a98b174d257284b1720e
-SHA256: 4d1f34071a169330cdc843e7de236bc0c48ec4aed1cedece4f6d233838b6e524
-SHA512: a52b6d032fb682424a0423dc672f34841b0f8f6b3736730f282b8aaf3903aea11389946894310662601bd5d9e6c2098b2e81f0ff29b3058e04bc4fbe272c8a3c
+Filename: dists/24.04/main/binary-amd64/postgresql-17-softvisio-admin_1.2.5_amd64.deb
+Size: 2892
+MD5sum: b8f140937455d47cdb8b9c34597fb16d
+SHA1: bd0b5f10c2f8d8a629b22f85d65365eac084d8e3
+SHA256: 0fb2104587b65d3edb436a19b6ae2097471831a81992539ebb02d35b190fe089
+SHA512: 66a86821b4651f96c064c964f5a6a642e17c05ad82451262924ece0ddf2427b76bdd8753bf24f2d0a3bc80db2a586c91a12029b32bbbd6a24e8a164eb25a4d34
 Description: PostgreSQL admin extension
 
 Package: postgresql-17-softvisio-types

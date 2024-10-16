@@ -68,20 +68,6 @@ SHA256: 54dba82872c4dafe688ab588e8538b37741216b626cf722d6981d6b49a4988fa
 SHA512: 319866a1f14f6ef7fbfc308231bba6fb4f6def94e3e3a884380e4eb5e0b7461f0a2a7262323eed7ab6cca68265417e59ee8811cd8176401202c02f5a17b2342a
 Description: Official latest Google Cloud repository
 
-Package: repo-microsoft-edge
-Architecture: all
-Version: 1.0.0
-Maintainer: apt@softvisio.net
-Installed-Size: 40
-Depends:
-Filename: dists/binary-all/repo-microsoft-edge_1.0.0_all.deb
-Size: 1562
-MD5sum: 44a1825844afd1ec2e12fdc6466f819a
-SHA1: a07cb0f9768ae80fa3cabab72e574d18ff3cfa94
-SHA256: 4c681081f286ea04c8839a62d93ebc52db472696c4cac7a40861398cefa1e6e4
-SHA512: 3bf6ce72556be80efd77183e869e2c8841c204f875240e256ae7d71d46fdb0104bea7a24575b58df81db185be95a0e86181d0feb2bb60ef18dfdac5610876b77
-Description: Official Microsoft Edge repository
-
 Package: repo-postgresql
 Architecture: all
 Version: 1.0.0

@@ -4,25 +4,25 @@ Hash: SHA512
 Architectures: all amd64
 Codename: 24.04
 Components: main
-Date: Wed, 16 Oct 2024 17:34:14 +0000
+Date: Wed, 16 Oct 2024 17:36:57 +0000
 Label: Softvisio repository
 Suite: 24.04
 MD5Sum:
- bb1d351ea0fba6e3e192c2a5008964f6             3142 main/binary-all/Packages
+ 62c1deacf4076131067f7b7f8429cec8             3681 main/binary-all/Packages
  61b1ca2a3b22d3710a74bfcdeb5e682b             2292 main/binary-amd64/Packages
 SHA1:
- ad85eafe4629c6822e4ce3c6e7bb88a670c5a36d             3142 main/binary-all/Packages
+ 781a3a99a03596fa3a64bc6670073937e75c10f0             3681 main/binary-all/Packages
  fd103c861a2b60e2c1ce5073bafe8dbcd8d46cd8             2292 main/binary-amd64/Packages
 SHA256:
- 001487c47dcc4d4429dbb702f1395ce1e746edf9f0ddddbe7804b330e5187cb9             3142 main/binary-all/Packages
+ e0e0be118d1d6d4da1a6800da633a65587fe6eb3521b52ba755d821e62d788e4             3681 main/binary-all/Packages
  9f0430f4253972d9dc450a435f1cb15d31c2a9e4d2c8635c991ff0d4cc0e3856             2292 main/binary-amd64/Packages
 SHA512:
- aed32f0b8552483cfaada007efc161444cc8f2c134c658263aac886685ed4a26c067d9c71d98492d770c03848ec4d05ed900d9acca89e76d3060987a945c0ab2             3142 main/binary-all/Packages
+ 9e9d6e6ca7164de1b82d1b3bca6f065f2950921088156941efe1e0bd36cab059b6d2096ee2ef4a596bd4a8e06e8767d9c67fdb43fafa7519c57a6c2b30eb8175             3681 main/binary-all/Packages
  65ed41606b4cb3b0fcecf26bcf1f9f586662606147af820c9e7b6975a6cdce68a57b21b70add8d01610c4e50eb6f034d22f02da4e49ba1ab30343fa861a3cd94             2292 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iIgEARYKADAWIQSy+GrmQpVUQ/2Ddb/+uZP9avn7SwUCZw/5FhIcYXB0QHNvZnR2
-aXNpby5uZXQACgkQ/rmT/Wr5+0va9wD/fOSd7HBPXrv5SYPR2qX2DKNHL6OR03ol
-IqvIfo3hXVsA/24bpWHZoPYB1lDQzqStaPKjCIQ0eU7oQgaDVpSagioK
-=NGZ/
+iIgEARYKADAWIQSy+GrmQpVUQ/2Ddb/+uZP9avn7SwUCZw/5uRIcYXB0QHNvZnR2
+aXNpby5uZXQACgkQ/rmT/Wr5+0sZjQEAgjIx9hegU8M1mVeLrrqG9X9/Grl8afkU
+C/QvUnvxD5QBAJbMlA8m4fioT4W55MWqPelfBkGA4QdYwzSeeb3c6BsO
+=mSr0
 -----END PGP SIGNATURE-----

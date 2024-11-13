@@ -17,7 +17,7 @@
 Importl public key
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/dists/public-key.gpg | gpg --dearmor -o /usr/share/keyrings/softvisio-archive-keyring.gpg
+curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/public-key.gpg | gpg --dearmor -o /usr/share/keyrings/softvisio-archive-keyring.gpg
 ```
 
 ### Export / import private key

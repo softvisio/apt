@@ -4,3 +4,5 @@ node_modules
 /wiki
 /env.local.yaml
 /env.*.local.yaml
+
+/dists

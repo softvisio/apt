@@ -45,3 +45,18 @@ gpg --import private.key
 ```shell
 gpg --clearsign --yes -u apt@softvisio.net -o InRelease Release
 ```
+
+### Init reposutory
+
+```shell
+# clone "main" branch
+git clone --single-branch --branch main git@github.com:softvisio/apt.git
+
+# clone "dists" branch
+git clone --single-branch --branch dists git@github.com:softvisio/apt.git dists
+
+# init "dists" branch
+git switch --orphan dists
+git commit --allow-empty -m "chore: init"
+git push -u origin dists
+```

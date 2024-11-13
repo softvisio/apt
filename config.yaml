@@ -1,0 +1,9 @@
+label: Softvisio repository
+
+maintainer: apt@softvisio.net
+gpgKeyName: apt@softvisio.net
+
+component: main
+
+codenames:
+  - 24.04

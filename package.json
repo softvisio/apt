@@ -1,0 +1,21 @@
+{
+    "name": "apt",
+    "version": "0.0.0",
+    "private": true,
+    "description": "Apt repository",
+    "keywords": [
+        "softvisio",
+        "apt"
+    ],
+    "homepage": "https://github.com/softvisio/apt",
+    "bugs": {
+        "url": "https://github.com/softvisio/apt/issues",
+        "email": "root <root@softvisio.net>"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/softvisio/apt.git"
+    },
+    "license": "Proprietary Software",
+    "author": "root <root@softvisio.net>"
+}

@@ -2,9 +2,10 @@
     "name": "apt",
     "version": "0.0.0",
     "private": true,
-    "description": "Apt repository",
+    "description": "Debian/Ubuntu deb distributions",
     "keywords": [
         "softvisio",
+        "deb",
         "apt"
     ],
     "homepage": "https://github.com/softvisio/apt",

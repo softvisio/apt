@@ -3,6 +3,9 @@
 # install
 # /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/setup.sh) install
 
+# re-install
+# /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/setup.sh) reinstall
+
 # remove
 # /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/setup.sh) remove
 
@@ -38,6 +41,11 @@ EOF
 
 case "$1" in
     install)
+        _install
+        ;;
+
+    reinstall)
+        _remove
         _install
         ;;
 

@@ -4,12 +4,15 @@ Version: 1.27.2
 Maintainer: apt@softvisio.net
 Installed-Size: 6656
 Depends: libpcre3
+Recommends:
+Conflicts:
+Replaces:
 Filename: dists/24.04/main/binary-amd64/nginx-latest_1.27.2_amd64.deb
-Size: 3101550
-MD5sum: 9fcd989694ed2fb9e5e216cc43e7674e
-SHA1: e287e2540deb1144480647526c35cb7429374ca9
-SHA256: ac65feaeeee9d79c4a336f5fce2bec32559b2492e55ab84115acfd13e8d19a27
-SHA512: 76a6198a6736b8cc31155396b4ad2995c31ef85eb8e918a516c4468a850bc5d63904a3d845f5bd581cce7d36ef749c285d26880d2a2c2a63e4d44083d907ca40
+Size: 3101574
+MD5sum: 45d30e0c90ed316ba2afed5da17e2ad3
+SHA1: b7ec6a60f959dddb7eae0af674ad3e3937f55829
+SHA256: 9884ed07bcc3a6b09ca8bf72592ca4e7b2af192a09382fe03b3cbcec988e4fdb
+SHA512: 1fec93018dd005938b3d66957273d95a7af36012a3219ca558fb63a406c4cd97edc49deccb73b0dcbaea6c1c2b002d665b67b6fe6305af4b6c526b25e7c312e3
 Description: A high performance web server and reverse proxy server
 
 Package: nginx-stable
@@ -18,12 +21,15 @@ Version: 1.26.2
 Maintainer: apt@softvisio.net
 Installed-Size: 6616
 Depends: libpcre3
+Recommends:
+Conflicts:
+Replaces:
 Filename: dists/24.04/main/binary-amd64/nginx-stable_1.26.2_amd64.deb
-Size: 3080398
-MD5sum: dc16f20cea8bc8ccbe879d67a6fa1f56
-SHA1: 1d3eccdaa5fe1af9ab1e5b29a81a9841fc194545
-SHA256: 0dfdd20109cfdf7a4a7d87608e9d98ae10e8e9be52ef8ba5413db04f8a7c1190
-SHA512: 80ff5d1d290fc2c1d0991611c8625d2b99f69d53f67b5951ed55d88a0779e01c3d4d06f0102a7b794b89a795f0f0c2dc676029bc2fc99223e61090a93d5c4d6e
+Size: 3080416
+MD5sum: 615fdc372123880479b4eeb6a3616af6
+SHA1: cb0eae0f23bea3c92f408395ffa4070a785af56a
+SHA256: 016f4162e709eee8cbfc40ff52d4cfe83db95e98a9cf3e01c3eba6823681a6ab
+SHA512: f49dd7b53af561b6db38e9a6c5892eea180660069f4d83e2f36caa9774981fa1e603725f677aac0d8768362447e503e1d67f799e5e04389e86b7a7aa73495625
 Description: A high performance web server and reverse proxy server
 
 Package: postgresql-17-softvisio-admin

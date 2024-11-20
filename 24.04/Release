@@ -1,30 +1,30 @@
 Architectures: all amd64
 Codename: 24.04
 Components: main
-Date: Wed, 20 Nov 2024 23:40:05 +0000
+Date: Wed, 20 Nov 2024 23:52:11 +0000
 Label: Softvisio repository
 Suite: 24.04
 MD5Sum:
- 02e4433ae719568df591d713b7a31fe9             2339 Release
+ 7afe02e1e49ff21dd7a5b74115b7a102             2339 Release
  38ce936644bc1b6caad318ea3b9ef184             5876 main/binary-all/Packages
  d6beb4cd77227a6ad4409c440bc224df             2313 main/binary-all/Packages.gz
- 58bb06eaec5f5a91b15658b8eab84d0d             1138 main/binary-amd64/Packages
- e4127d8a7b7605b2d2768fcc012d20fc              603 main/binary-amd64/Packages.gz
+ 39b871250050882aaa3c35aaafeb9673             2544 main/binary-amd64/Packages
+ d6b946382b488f6b037d5d330551b59f             1084 main/binary-amd64/Packages.gz
 SHA1:
- d10192b3a4b3a4de174f58dc0062a07a6a794fdd             2339 Release
+ c82200db315a84db25397457574845f080170eca             2339 Release
  d77fff663e59c8c6ef096df43dce7eae9caab987             5876 main/binary-all/Packages
  b0b2a7f83ab2824553bfeab558e1330b3a8463a0             2313 main/binary-all/Packages.gz
- abe977aea776e3149a5959cbb9c84114516ca8f4             1138 main/binary-amd64/Packages
- fc73ce2db3debc306145674ea2dcbff5b2ad38b5              603 main/binary-amd64/Packages.gz
+ 9cb7445610bbc7621fdcc2e64088044b23f28024             2544 main/binary-amd64/Packages
+ bd14e9e09c9bbd96824fb1bd8ea65cee60db39ce             1084 main/binary-amd64/Packages.gz
 SHA256:
- 46f5faae83c58d161715efe5f9a54067336e3e03d08f4d34549181cac7fac525             2339 Release
+ 90d5f20ac17213b393144fb8df2e6c133c132d7fa13bcf1b469ebc2064406ee0             2339 Release
  d2b8af669ce4768ff04e0db1d77478fa60df7cca46f08a3295accd930896ca3d             5876 main/binary-all/Packages
  13f7b91d2f05ef6d4c92efc05a5843d16c4d82df0f5ec35435f94ea2b277e6df             2313 main/binary-all/Packages.gz
- 600dcb33cef5baee2dafe5ad1d026ece07644df180e43824467374bd0c6fd24a             1138 main/binary-amd64/Packages
- 68834f0b3bc20f267139031b9850758e4262f9237f4c65570921ae1354710475              603 main/binary-amd64/Packages.gz
+ 36fa71fc601e9f2f2d6b95331a124010c429bc1905fb734cb86625eafeacb88c             2544 main/binary-amd64/Packages
+ 082991730415d155b7e72ccc1c8f88cbf8dfeb302ca3805774498d0d9a49aab3             1084 main/binary-amd64/Packages.gz
 SHA512:
- 1317ff5e2c76558587eab703c3a4a05b7604cea41750adaf1194fe48154a24cd69878efc1e9d640e51981d56e42f938e75aa125bd31294e45dc34514aa5c1a4a             2339 Release
+ 2e59b5e24a925582b422dbc72d323a5332b3a7b310fd23b96355147451287d5a2b3155927a0ae5c3a51af29a565790bc067558038de888fbe63a02d11de684b4             2339 Release
  16d75b913f9e7a5923647b316621fadfc09c609848ca65077530a2414f771403e1fb242f91ded0ff2fbc5f206b2fa50f6f046db634b20f82b7ff008c4554bf57             5876 main/binary-all/Packages
  21a52b40c684f9ebe2a84c176ed19034e2b9c164bca1331819fc48549458ea3f24cfbb7952d6b7aee3f5d15a146d9f3e6991b47c7dc723a87e93e83eeb3b5158             2313 main/binary-all/Packages.gz
- bf04094530bd4b06add8e0bb56de3cebe42593ce325c5fb1b27671af135fb9b76fc65105e3f6e97eacbf941aff4fc4a45a122362380527ed34a465a835525924             1138 main/binary-amd64/Packages
- 2b9350f5056a5d2e2574f6f5fcf5d2ab485f3d8310695be4daf33b4e1988dcd934ac63abc49a8871d91c2ba2aafbc524517c7ed6dfa3efcf646dabdbc43a97ba              603 main/binary-amd64/Packages.gz
+ c8f8f731baeba8832acd23944b3ab6a32dcfd9e09e1d9f6bdad10bbb832d514174766264a39bdec03fea3a41fa750f0807d4c68bef3456f3a2f1d9db115a2355             2544 main/binary-amd64/Packages
+ 838f03715cae935df1b9943e1e12e2aa0178e25ced809eaa61d93c25b0d1524e36d1f92000cf377dae5f84d4a4bfb07511960ed17511603d8364a8400138e9a4             1084 main/binary-amd64/Packages.gz

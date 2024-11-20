@@ -4,7 +4,7 @@
 STABLE_VERSION=$(git ls-remote --branches https://github.com/nginx/nginx.git | perl -lne 'm[refs/heads/stable-([\d.]+)$]sm ? print $1 : next' | sort -V | tail -n 1)
 
 NAME=nginx-stable
-EPOCH=1
+EPOCH=0
 VERSION=$(git ls-remote --tags https://github.com/nginx/nginx.git | perl -lne 'm[refs/tags/release-([\d.]+)$]sm ? print $1 : next' | grep $STABLE_VERSION | sort -V | tail -n 1)
 REVISION=0
 ARCHITECTURE=source

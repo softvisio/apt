@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Architectures: all amd64
 Codename: 24.04
 Components: main
@@ -19,10 +16,3 @@ SHA256:
 SHA512:
  16d75b913f9e7a5923647b316621fadfc09c609848ca65077530a2414f771403e1fb242f91ded0ff2fbc5f206b2fa50f6f046db634b20f82b7ff008c4554bf57             5876 main/binary-all/Packages
  d1593cf01027dcd4fa8e6564dac3ede0797e011f79ec66072f34d0ef682075122c51cd5aedef118153a4650acd515d1915eef1ec64fe74aaacb237f7f87506a5             2294 main/binary-amd64/Packages
------BEGIN PGP SIGNATURE-----
-
-iIcEARYKADAWIQSy+GrmQpVUQ/2Ddb/+uZP9avn7SwUCZz5h4hIcYXB0QHNvZnR2
-aXNpby5uZXQACgkQ/rmT/Wr5+0uj+wD/TQn4ikX2EmuJiKbmIgc5MBpQfln2LIP2
-CftB7Y8UbC4A+Nd/XJ7vOxYheEssO4tdWWMyQus+eKNZCYv2odLHLgw=
-=ggxj
------END PGP SIGNATURE-----

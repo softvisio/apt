@@ -7,6 +7,8 @@ VERSION=1.0.0
 REVISION=0
 ARCHITECTURE=all
 DEPENDS=
+CONFLICTS=repo-nginx-latest
+REPLACES=repo-nginx-latest
 DESCRIPTION="Nginx stable releases"
 
 function build() {

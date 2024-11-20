@@ -7,8 +7,8 @@ VERSION=$(git ls-remote --tags https://github.com/nginx/nginx.git | perl -lne 'm
 REVISION=0
 ARCHITECTURE=source
 DEPENDS=libpcre3
-CONFLICTS=nginx-stable, nginx, nginx-common, nginx-core
-REPLACES=nginx-stable, nginx, nginx-common, nginx-core
+CONFLICTS="nginx-stable, nginx, nginx-common, nginx-core"
+REPLACES="nginx-stable, nginx, nginx-common, nginx-core"
 DESCRIPTION="A high performance web server and reverse proxy server"
 
 OPTFLAGS="-O2 -g" # rpm --eval "%{optflags}"

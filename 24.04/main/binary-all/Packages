@@ -102,12 +102,15 @@ Version: 1.0.0
 Maintainer: apt@softvisio.net
 Installed-Size: 52
 Depends:
+Recommends:
+Conflicts: repo-nginx-stable
+Replaces: repo-nginx-stable
 Filename: dists/binary-all/repo-nginx-latest_1.0.0_all.deb
-Size: 9060
-MD5sum: 907108683e9e104f18a07cc2081b8b2e
-SHA1: a5c1124e1cd67bd024857bfa2682e8f2c0c9f6cf
-SHA256: 3a91a6ae9826a44dde87729238ec8fc477bf9c6a1ff8909ec34c1ed01b03c71e
-SHA512: 58d31a78dee787ac2684630962d8c3d5f0f46866549d355b3b2b4da8a78fbf5bcf6743c0adb678891bd8558c55da2aa8ddfc05266b7689d0e7e2f5767cc772f5
+Size: 9098
+MD5sum: 6187bfa706ef0c96e65b9965f790ce6f
+SHA1: 9124c5515b37f0d6a51d2831c379246e4dcc64c6
+SHA256: f0148a2100ee5746b2a427f607ed54c66a187a9f811cdd434671178e950da6ff
+SHA512: eac8588db3d9500cb7a16c4961bbf7f03d6578b9d40d01daa7557fbea1cb01e112120fb472368c410c7df2a9667e6b82a65e509c22c6d76d553f4916e19d8f61
 Description: Nginx latest releases
 
 Package: repo-nginx-stable
@@ -116,12 +119,15 @@ Version: 1.0.0
 Maintainer: apt@softvisio.net
 Installed-Size: 52
 Depends:
+Recommends:
+Conflicts: repo-nginx-latest
+Replaces: repo-nginx-latest
 Filename: dists/binary-all/repo-nginx-stable_1.0.0_all.deb
-Size: 9062
-MD5sum: 3495cd2d7581b21c92c65a67e025d62e
-SHA1: accd2a07a603f2f84eba52786e758161edae0421
-SHA256: 5948236e307351118c55612703636e07a4fa4cccab7368dfa1452662eed02003
-SHA512: bb47762cc2d74be8d85dd4d0c40e46bf91e7724c0bbb529cd2134b27a1bde85f4d6e724a2f1c4f96ed95f9d9b864ecfc0a4ee00847862e1775413abaac64fd3c
+Size: 9086
+MD5sum: 66e504fd1bb6dd94df08f790fea15ed5
+SHA1: 15a3260cc58a3890b9778c10381518d10f0c06a6
+SHA256: d3e8f308e260e03348a4d96595e8611c0fabf4b6e48b13522e6eb9fab566fd90
+SHA512: 2270d8d31c47db7a5737529272d4621904536a8d71341f1339f352fbf665161aea06b0756aec04c31db3c7d2831844afd351a8ea68b12f6b07b27c0f263a9fb0
 Description: Nginx stable releases
 
 Package: repo-postgresql

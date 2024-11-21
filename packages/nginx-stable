@@ -10,8 +10,8 @@ VERSION=$(git ls-remote --tags https://github.com/nginx/nginx.git | perl -lne 'm
 REVISION=0
 ARCHITECTURE=source
 DEPENDS=libpcre3
-CONFLICTS="nginx-latest, nginx, nginx-common, nginx-core"
-REPLACES="nginx-latest, nginx, nginx-common, nginx-core"
+CONFLICTS="nginx-latest"
+REPLACES="nginx-latest"
 
 OPTFLAGS="-O2 -g" # rpm --eval "%{optflags}"
 LD_FLAGS=         # rpm --eval "%{build_ldflags}" XXX

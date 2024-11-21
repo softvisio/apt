@@ -40,6 +40,23 @@ SHA256: 64e3d6df741df0add89d2aa78e6790b7d5a8bf6671dc287b9bb42e5b36bf5997
 SHA512: 1d626bdedfbeb2685c2418d2549a147bdef2e8155cf22f426850440b815f14dd4bb643226c5ef6059104552e12214fb4bd32c28df71f66037d2dc4d1e1892ae1
 Description: Official latest Docker-CE repository
 
+Package: repo-git-lfs
+Architecture: all
+Version: 1.0.0
+Maintainer: apt@softvisio.net
+Installed-Size: 44
+Depends:
+Recommends:
+Conflicts:
+Replaces:
+Filename: dists/binary-all/repo-git-lfs_1.0.0_all.deb
+Size: 3862
+MD5sum: c232d0169ed6d20618f7b97a6e9c93c3
+SHA1: 742efec8043bc367c96cb67f02d296282fc88ac6
+SHA256: c08c51ab92aa272eb20b6f5c8655da8e3ba3e30dc3fd806f418ebdf9f39d4980
+SHA512: 4f76ae8238a68a98daacccf22a9f6df1aff646304e0b2b6b04ccda62c42ec670ff55d0deb5c3bb7e7eededdfd766c03c7263d25852b9520e46ea6c7336518e58
+Description: Git LFS stable releases
+
 Package: repo-git
 Architecture: all
 Version: 1.0.0

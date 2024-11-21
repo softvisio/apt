@@ -2,12 +2,13 @@
 # vim: ft=sh
 
 NAME=n
+DESCRIPTION="Node version management"
 EPOCH=0
 VERSION=$(git ls-remote --tags https://github.com/tj/n.git | perl -lne 'm[refs/tags/v([\d.]+)$]sm ? print $1 : next' | sort -V | tail -n 1)
 REVISION=0
 ARCHITECTURE=all
 DEPENDS=
-DESCRIPTION="Node version management"
+
 N_PREFIX=/usr/n
 
 function build() {

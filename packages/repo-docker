@@ -2,12 +2,12 @@
 # vim: ft=sh
 
 NAME=repo-docker
+DESCRIPTION="Official latest Docker-CE repository"
 EPOCH=0
 VERSION=1.0.0
 REVISION=0
 ARCHITECTURE=all
 DEPENDS=
-DESCRIPTION="Official latest Docker-CE repository"
 
 function build() {
     cat << EOF > $DEBIAN/postinst

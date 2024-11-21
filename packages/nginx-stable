@@ -4,6 +4,7 @@
 STABLE_VERSION=$(git ls-remote --branches https://github.com/nginx/nginx.git | perl -lne 'm[refs/heads/stable-([\d.]+)$]sm ? print $1 : next' | sort -V | tail -n 1)
 
 NAME=nginx-stable
+DESCRIPTION="A high performance web server and reverse proxy server"
 EPOCH=0
 VERSION=$(git ls-remote --tags https://github.com/nginx/nginx.git | perl -lne 'm[refs/tags/release-([\d.]+)$]sm ? print $1 : next' | grep $STABLE_VERSION | sort -V | tail -n 1)
 REVISION=0
@@ -11,7 +12,6 @@ ARCHITECTURE=source
 DEPENDS=libpcre3
 CONFLICTS="nginx-latest, nginx, nginx-common, nginx-core"
 REPLACES="nginx-latest, nginx, nginx-common, nginx-core"
-DESCRIPTION="A high performance web server and reverse proxy server"
 
 OPTFLAGS="-O2 -g" # rpm --eval "%{optflags}"
 LD_FLAGS=         # rpm --eval "%{build_ldflags}" XXX

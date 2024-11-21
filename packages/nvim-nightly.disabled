@@ -2,12 +2,13 @@
 # vim: ft=sh
 
 NAME=nvim
+DESCRIPTION="Neovim nightly build"
 EPOCH=0
 VERSION=$(curl --silent https://api.github.com/repos/neovim/neovim/releases/tags/nightly | perl -lne 'm[NVIM\s+v([\d.]+)-dev\+(\d+)]sm ? print $1 . "." . $2 : next')
 REVISION=0
 ARCHITECTURE=all
 DEPENDS=
-DESCRIPTION="Neovim nightly build"
+
 PREFIX=/usr/local
 
 function build() {

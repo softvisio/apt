@@ -2,12 +2,12 @@
 # vim: ft=sh
 
 NAME=repo-microsoft-edge
+DESCRIPTION="Official Microsoft Edge repository"
 EPOCH=0
 VERSION=1.0.0
 REVISION=0
 ARCHITECTURE=all
 DEPENDS=
-DESCRIPTION="Official Microsoft Edge repository"
 
 function build() {
     apt-get install -y gpg

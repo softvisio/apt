@@ -2,12 +2,12 @@
 # vim: ft=sh
 
 NAME=repo-postgresql
+DESCRIPTION="Official latest PostgreSQL repository"
 EPOCH=0
 VERSION=1.0.0
 REVISION=0
 ARCHITECTURE=all
 DEPENDS=
-DESCRIPTION="Official latest PostgreSQL repository"
 
 function build() {
 

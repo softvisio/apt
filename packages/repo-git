@@ -2,12 +2,12 @@
 # vim: ft=sh
 
 NAME=repo-git
+DESCRIPTION="Git stable releases"
 EPOCH=0
 VERSION=1.0.0
 REVISION=0
 ARCHITECTURE=all
 DEPENDS=
-DESCRIPTION="Git stable releases"
 
 # NOTE https://launchpad.net/~git-core/+archive/ubuntu/ppa
 FINGERPRINT=F911AB184317630C59970973E363C90F8F1B6217

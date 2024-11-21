@@ -2,11 +2,12 @@
 # vim: ft=sh
 
 NAME=redis-latest
+DESCRIPTION="A persistent key-value database"
 EPOCH=0
 VERSION=$(git ls-remote --tags https://github.com/antirez/redis.git | perl -lne 'm[refs/tags/([\d.]+)$]sm ? print $1 : next' | sort -V | tail -n 1)
 REVISION=0
 ARCHITECTURE=source
-DESCRIPTION="A persistent key-value database"
+
 OPTFLAGS="-O2 -g" # rpm --eval "%{optflags}"
 LD_FLAGS=         # rpm --eval "%{build_ldflags}" XXX
 MAKE_FLAGS="-j4"  # rpm --eval "%{_smp_mflags}"

@@ -6,4 +6,4 @@ gpgKeyName: apt@softvisio.net
 component: main
 
 codenames:
-  - 24.04
+    - 24.04

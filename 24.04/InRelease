@@ -4,37 +4,37 @@ Hash: SHA512
 Architectures: all amd64
 Codename: 24.04
 Components: main
-Date: Mon, 23 Dec 2024 08:02:47 +0000
+Date: Mon, 23 Dec 2024 08:04:08 +0000
 Label: Softvisio repository
 Suite: 24.04
 MD5Sum:
- 6b43aad1279ebaa887887d976eb2c329             2339 Release
- ad1737e9c7e9f5e37b6e6363a09895e1             5920 main/binary-all/Packages
- 4221106cb28edd1b55cc78281f6ca33c             2297 main/binary-all/Packages.gz
+ a4a825e4d20ce702a9ddc12a853752ff             2339 Release
+ 3f3696158889295e45225fff51113879             6456 main/binary-all/Packages
+ 8ccd5653418d8340bf7b78aa6aac6cf7             2501 main/binary-all/Packages.gz
  44a3297895ef3fdeeee48b1f34547632             2412 main/binary-amd64/Packages
  48b8a8de3c253331ff275725e436209b             1072 main/binary-amd64/Packages.gz
 SHA1:
- b63860544b6dfbdd1e70c4f12d11ae3c485129d0             2339 Release
- c9006f60fb00915f9462f17de2af2138f25e83c4             5920 main/binary-all/Packages
- f0ec93d76544b141bcc1c54ae7882f9c9a81a006             2297 main/binary-all/Packages.gz
+ 84462d99781b96ccaef783c14d6eeb4c1c3092bc             2339 Release
+ 7fa37b6f1f2305aacaa8fc4b00318f0f04cb6503             6456 main/binary-all/Packages
+ 0f3cb942facf43e2521030861f7702f9a7025f3e             2501 main/binary-all/Packages.gz
  a2327384f11363a153239bfd7ba3183a75d4b92a             2412 main/binary-amd64/Packages
  2b48a7e36ed979ce4bb87286461b4d657a18de13             1072 main/binary-amd64/Packages.gz
 SHA256:
- 9b2b655bd50e1f6de341e87630f7083392b8d13789e885051f86cbdc26a96031             2339 Release
- 721b940f390dddb97e52e6f526afba20c6846d9d9edb15c7858a5e977f2c5844             5920 main/binary-all/Packages
- 3c4cbdb23d478be13b22e15b0ceeaa66dea64e99733ce3f424b0732ef083c6cb             2297 main/binary-all/Packages.gz
+ 8e356064d11961586daf2f770ec3b749ce96d697abe393e78fec4a17d4ea7aed             2339 Release
+ b3fb67286d5b175989eec9ddffa7359fa8c128e0e6074d9ffd43e66783859308             6456 main/binary-all/Packages
+ 8b11376788882836d8971da0db6559f777db6ac934931d0090d121087c332572             2501 main/binary-all/Packages.gz
  7e5fd2e93a4f166a045dff91e62775c7923516f40ca485af0648715d35ca603a             2412 main/binary-amd64/Packages
  6766af0ed02cb090064e12ed09b08dfb2d6ae4b816bbc1606f252ab0f7d694c6             1072 main/binary-amd64/Packages.gz
 SHA512:
- b9e9496b79f7f806585d0d52d0f9421be43fa5c8db9edecbd59c527dce753bcdfab84526a7689f507cbc3a04ca014f701fd3203a99c324a93bf2af53e776b691             2339 Release
- c684f967c906961172be9c034a16a85802e128807fdcd0334157b4c4c157581b01ae54e56c9bd9f49495d1c071e788cf03d978cc536996e5ddc20fdb377b5453             5920 main/binary-all/Packages
- 2e13d75aae0530ddc7871975c47956f0947adfca03a273250bedbd7f8a0dd0ac7ffa02a65503e1fe6805a2311c5685bbc89673c19b080e6f96e852c8b30558ba             2297 main/binary-all/Packages.gz
+ ba5653cd5c305302fdb310eb17d334c43004a1b8506d9d77da87a8d9ef5b94dd3f3ad724208e77d935e39c9b0b9f3d6ab0b5a80ce5852978e8167a39ee20f8db             2339 Release
+ dcbbdc36ae16344077ad93d0e5277b18c9143ce8ba7c1cd01c74bd2cc9a910368e232cbc333a619fcaf87b1492b6de8e8e204cd55fed4b6f4df9a7ac580b3c91             6456 main/binary-all/Packages
+ 51e53ce44b978e07e46b1b432b61a7794a5bcb81664806c17fcf98a4dd7c594f497374488cfc67d2c6449a6abf998d15486f8e574ae7d9f523cc5b811dd9078f             2501 main/binary-all/Packages.gz
  5a35fd67a41200f8236cec8090e73c6e6af1494f0fe79f8190bc8ef914da99f1064fb0f1f169953b059c3cb91aed282cde719e2500fa24931448865bc1982a45             2412 main/binary-amd64/Packages
  c3f84cc9fbe5f167a4b733d09f3a75c910a515d18a4292be75868d279b60b0b3aa1fce0d31a41f7a0ea4560c2ae5ee50df1d4401ec154e28fe422a81c1abbace             1072 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iIgEARYKADAWIQSy+GrmQpVUQ/2Ddb/+uZP9avn7SwUCZ2kZJxIcYXB0QHNvZnR2
-aXNpby5uZXQACgkQ/rmT/Wr5+0svpwEAhCeSppw6qPkH217b9dYO249U3fuKMHmx
-VdejJexHCTwBAJa/ZrTdrAv3XhgrqVrsvS/2ghQ9u2fsH9IWso9TZNMJ
-=RZIF
+iIgEARYKADAWIQSy+GrmQpVUQ/2Ddb/+uZP9avn7SwUCZ2kZeBIcYXB0QHNvZnR2
+aXNpby5uZXQACgkQ/rmT/Wr5+0tqggD/QwaYwGgSsX7ECrqk+r/mWt7lRKtpjrjW
+vo0ROs4Z5EEA/RRCv3SHbvxzS1oISZyGoH1c7lBuIljAe3MY9Ig9YuoM
+=hWwW
 -----END PGP SIGNATURE-----

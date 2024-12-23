@@ -14,16 +14,19 @@ Description: Node version management
 
 Package: nvim
 Architecture: all
-Version: 0.10.2
+Version: 0.10.3
 Maintainer: apt@softvisio.net
-Installed-Size: 42260
+Installed-Size: 42264
 Depends:
-Filename: dists/binary-all/nvim_0.10.2_all.deb
-Size: 11873682
-MD5sum: 891f3d2ac667fcfbc8631ad675478489
-SHA1: 79dacf464cd4a929edfaee527ea489a87f22c94b
-SHA256: b6c8e29fc0a5d02e0da567b627f0b466d7303b87c3af5f7bdab7d7085c2132f7
-SHA512: f57d5d775caa4e315fb845d84ccb116fba8f1337c526170f33348d258baee8fe99bf22b67de0466f1f8104f5b212215d3491c09270e12cc7563785764bd5ae48
+Recommends:
+Conflicts:
+Replaces:
+Filename: dists/binary-all/nvim_0.10.3_all.deb
+Size: 11880174
+MD5sum: 21fe43c601927b379450b06627ba6943
+SHA1: 74a7d486379181ba79844494888f2a8f472c63c8
+SHA256: 1316c782569ceb1e763cb33eb6d44e9f05c0fa1809b3325f6667453215f01ea3
+SHA512: adb1e07b5586a99cbc352c7c071cb37e3d061efdc278499d6a0a7d0fb636d281133d12dd9acd54fb3e41951d008cee3dc4e028739e2b080d6ee90b0d4ce86cf6
 Description: Neovim stable build
 
 Package: repo-docker

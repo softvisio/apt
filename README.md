@@ -60,3 +60,33 @@ git switch --orphan dists
 git commit --allow-empty -m "chore: init"
 git push -u origin dists
 ```
+
+### Work with packages
+
+You need `@softvisio/cli` package:
+
+```shell
+npm install --global @softvisio/cli
+```
+
+Build docker images:
+
+```shell
+softvisio-cli apt build-images
+```
+
+Build packages:
+
+```shell
+# build all packages
+softvisio-cli apt build all
+
+# build "nginx-stable" package
+softvisio-cli apt build nginx-stable
+```
+
+Update repository data:
+
+```shell
+softvisio-cli update
+```

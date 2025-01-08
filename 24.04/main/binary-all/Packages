@@ -166,15 +166,18 @@ Description: Official latest PostgreSQL repository
 
 Package: repo-vivaldi
 Architecture: all
-Version: 1.0.0
+Version: 1.0.0-1
 Maintainer: apt@softvisio.net
 Installed-Size: 40
 Depends:
-Filename: dists/binary-all/repo-vivaldi_1.0.0_all.deb
-Size: 3180
-MD5sum: ec247ad829dd90511cda8ca3d20a1499
-SHA1: 5c21c7fbaf739977b181c20e7c98758fc71a419a
-SHA256: 1792ec90178b9424b17992abf791bf3e0e7598bb78a5f0855f6289e766417ff6
-SHA512: b3723bcfdf2a64252d6961e5755eb8c2c94969a755a317b9ff1b914027c9f44b3568c6fcf4c9427b69805f508a9b52fe58009851e08ad444136ca0701be46ebb
+Recommends:
+Conflicts:
+Replaces:
+Filename: dists/binary-all/repo-vivaldi_1.0.0-1_all.deb
+Size: 3198
+MD5sum: 9e03a26ac7668f53b47074bc45693130
+SHA1: 0a5995864957b7b5558758024257b58b48f22a4e
+SHA256: 97b1f6c4bd0f09e9595f28e82afec9ad9af3005d9bab31c82954b789c59bb737
+SHA512: aee7e3b59b1d99696ea270f749b1c473bde0b25afaeae950ae6161bbbb3c8c404d9fb7027c68be3afe7eddaea3452fd01c9559b462c9879208af9b88c652f5a4
 Description: Official Vivaldi repository
 

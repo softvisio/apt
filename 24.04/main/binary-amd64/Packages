@@ -1,35 +1,35 @@
 Package: nginx-latest
 Architecture: amd64
-Version: 1.27.3
-Maintainer: apt@softvisio.net
-Installed-Size: 6716
-Depends: libpcre3
-Recommends:
-Conflicts: nginx-stable
-Replaces: nginx-stable
-Filename: dists/24.04/main/binary-amd64/nginx-latest_1.27.3_amd64.deb
-Size: 3146976
-MD5sum: d089fcae44ddc175049e3a9b8b26f4fd
-SHA1: eac2e44680d422f11232128b6a01b0b89b71486c
-SHA256: 1c43e757e198a9b693bb1df9a398c1181ed652c1a22fecbe036d3ac6462978a0
-SHA512: 7354c78882158c0ee19726aedb6026666f07f58ed3c6d9e4d8272317293aa0d485cc7056c9974187b625b5620272a13b2a2920bac6378dd0111634d22807da6e
-Description: A high performance web server and reverse proxy server
-
-Package: nginx-stable
-Architecture: amd64
 Version: 1.26.2
 Maintainer: apt@softvisio.net
 Installed-Size: 6616
 Depends: libpcre3
 Recommends:
+Conflicts: nginx-next
+Replaces: nginx-next
+Filename: dists/24.04/main/binary-amd64/nginx-latest_1.26.2_amd64.deb
+Size: 3080824
+MD5sum: 30742981fe20097e5d87437f8e8cf064
+SHA1: 4ed274c4b5a92e619d35df5c219b10e1ced9c5e8
+SHA256: 2b309ce03d21dd2d64dd5081448b8bfedd0100cd2bcb753e52107cd594390832
+SHA512: 3f22fb55570617a5f3996af401c6feb1b50415ee798e4fda85963359102fbb4f678fcce7a920d1e9497d8692fd817411689d92cdb6b737a0c18e7803d0c91a7d
+Description: A high performance web server and reverse proxy server
+
+Package: nginx-next
+Architecture: amd64
+Version: 1.27.3
+Maintainer: apt@softvisio.net
+Installed-Size: 6716
+Depends: libpcre3
+Recommends:
 Conflicts: nginx-latest
 Replaces: nginx-latest
-Filename: dists/24.04/main/binary-amd64/nginx-stable_1.26.2_amd64.deb
-Size: 3080298
-MD5sum: de078c2777c50065e6b47844fc51cd46
-SHA1: 7a860322a8adeecc483ebb5ebe00f716735d7443
-SHA256: c249b36d55b5fe63561c23db7d3f995b17996b8cbb032395b582fa86a467ba1d
-SHA512: 6aefe0d83da396ad18a4c4c3f5ed70d8472aac709983a3f5a7df85726e90fdd5bf5033cffc0e35ce4d698e1c3d08ecb93e4ed5e58abe9811249eeb62086f61ff
+Filename: dists/24.04/main/binary-amd64/nginx-next_1.27.3_amd64.deb
+Size: 3147108
+MD5sum: 1111337549ff97d800220d44589a282d
+SHA1: 21c2448f4df18c853bce6bee2a19a4648aa80bd8
+SHA256: 6d9a20ac2d64adb40e2109ae4889b3f753f25cc10212b58f459dcbb4740d5257
+SHA512: caf9e45f1351f89cc8a19c160ac98f4e6558dc425bc271dcdd79c3a7dbd61ab058ef17fba282996063d07e31261af7eed4be745c11bee2d8be04db2713b0b5f5
 Description: A high performance web server and reverse proxy server
 
 Package: postgresql-17-softvisio-admin

@@ -1,15 +1,15 @@
 #!/bin/bash
 # vim: ft=sh
 
-NAME=repo-nginx-stable
-DESCRIPTION="Nginx stable releases"
+NAME=repo-nginx-next
+DESCRIPTION="Nginx mainline releases"
 EPOCH=0
 VERSION=1.0.0
 REVISION=0
 ARCHITECTURE=all
 DEPENDS=
-CONFLICTS=repo-nginx-latest
-REPLACES=repo-nginx-latest
+# CONFLICTS=repo-nginx-latest
+# REPLACES=repo-nginx-latest
 
 function build() {
     cat << EOF > $DEBIAN/postinst
@@ -17,7 +17,7 @@ function build() {
 
 VERSION_CODENAME=\$(source /etc/os-release && echo \$VERSION_CODENAME)
 
-sed -i -e "/VERSION_CODENAME/ s/VERSION_CODENAME/\$VERSION_CODENAME/" /etc/apt/sources.list.d/nginx-stable.list
+sed -i -e "/VERSION_CODENAME/ s/VERSION_CODENAME/\$VERSION_CODENAME/" /etc/apt/sources.list.d/nginx-next.list
 EOF
     chmod +x $DEBIAN/postinst
 
@@ -28,7 +28,7 @@ EOF
     curl -fsSL "https://nginx.org/keys/nginx_signing.key" | gpg --dearmor -o $DESTDIR/usr/share/keyrings/nginx-archive-keyring.gpg
 
     mkdir -p $DESTDIR/etc/apt/sources.list.d
-    cat << EOF > $DESTDIR/etc/apt/sources.list.d/nginx-stable.list
-deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] https://nginx.org/packages/ubuntu VERSION_CODENAME nginx
+    cat << EOF > $DESTDIR/etc/apt/sources.list.d/nginx-next.list
+deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] https://nginx.org/packages/mainline/ubuntu VERSION_CODENAME nginx
 EOF
 }

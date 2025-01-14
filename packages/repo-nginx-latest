@@ -8,8 +8,8 @@ VERSION=1.0.0
 REVISION=0
 ARCHITECTURE=all
 DEPENDS=
-# CONFLICTS=repo-nginx-next
-# REPLACES=repo-nginx-next
+CONFLICTS=repo-nginx-next
+REPLACES=repo-nginx-next
 
 function build() {
     cat << EOF > $DEBIAN/postinst

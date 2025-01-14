@@ -123,14 +123,14 @@ Maintainer: apt@softvisio.net
 Installed-Size: 52
 Depends:
 Recommends:
-Conflicts:
-Replaces:
+Conflicts: repo-nginx-next
+Replaces: repo-nginx-next
 Filename: dists/binary-all/repo-nginx-latest_1.0.0_all.deb
-Size: 9084
-MD5sum: a8dab2662959810aaf30991e1be199ee
-SHA1: 4bb307d73d562a5c1a2039201fdc379aef758c0c
-SHA256: e4b0d906b06eb609cca8f15c91b07ec53a61b1060f246f00baba715dff3cdba3
-SHA512: d0f7aa86313cedc00e05124e35ea63b11806d904ca6a2a40e06ef58f28be21f71640c172a41e07c879c8c0796ce4de32fe3e616ae294c0ed50fd165dff04760b
+Size: 9086
+MD5sum: f603026c909004f00999ec104448be96
+SHA1: 9e820dfc7a0dff1030f980fb96b860e6250cd959
+SHA256: 7d6d3d9d578a62ef6b85227756c2b362152ad05f9e5739ac34329cf64714bac3
+SHA512: d54671dc6b2ccea554e4f2edf32b1ffa48f79ecbff0e20f61ff1f2d9fea473041e4a82851b669719008df7aa24a6efd3093aa91a7a6d4c8b7666ac4c3630d67f
 Description: Nginx stable releases
 
 Package: repo-nginx-next
@@ -140,14 +140,14 @@ Maintainer: apt@softvisio.net
 Installed-Size: 52
 Depends:
 Recommends:
-Conflicts:
-Replaces:
+Conflicts: repo-nginx-latest
+Replaces: repo-nginx-latest
 Filename: dists/binary-all/repo-nginx-next_1.0.0_all.deb
-Size: 9084
-MD5sum: 9f40403d1fb6d0b53a1d88daba1c649e
-SHA1: 97c2414cc3a0c5481155bdfe3422ad6bc9f7415c
-SHA256: b850afd8ed5071c6a7edc397bdb997cee622d3ab769f9de194f8501372a1efee
-SHA512: 26be10e6816b26acd66ad7e027c10b1b43872044b96f5dd60120be1a4395d4e42f7fb3e14d36d6cebb701dfe43372dadf87a0265fb7c41e59d5eef5cb14a6c96
+Size: 9094
+MD5sum: e2139730dcdd995764a36e29a1cf5013
+SHA1: 1e6fa81cdfa3be2586301fd1f168bd94307fcbdd
+SHA256: d5ff16619b256f8252d54ae4ac0e6d5102fcd5ac13acfb503612b5020b54a553
+SHA512: d4326d0e75333cbb2d262edb251141e0e442a5ed74602803c2a4d382a6fcf43c9565b4d50fa2333f10de540bf26355d7d57461eb780648f4a29a1569c82e9ef1
 Description: Nginx mainline releases
 
 Package: repo-postgresql

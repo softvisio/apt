@@ -123,32 +123,32 @@ Maintainer: apt@softvisio.net
 Installed-Size: 52
 Depends:
 Recommends:
-Conflicts: repo-nginx-stable
-Replaces: repo-nginx-stable
+Conflicts:
+Replaces:
 Filename: dists/binary-all/repo-nginx-latest_1.0.0_all.deb
-Size: 9098
-MD5sum: 6187bfa706ef0c96e65b9965f790ce6f
-SHA1: 9124c5515b37f0d6a51d2831c379246e4dcc64c6
-SHA256: f0148a2100ee5746b2a427f607ed54c66a187a9f811cdd434671178e950da6ff
-SHA512: eac8588db3d9500cb7a16c4961bbf7f03d6578b9d40d01daa7557fbea1cb01e112120fb472368c410c7df2a9667e6b82a65e509c22c6d76d553f4916e19d8f61
-Description: Nginx latest releases
+Size: 9084
+MD5sum: a8dab2662959810aaf30991e1be199ee
+SHA1: 4bb307d73d562a5c1a2039201fdc379aef758c0c
+SHA256: e4b0d906b06eb609cca8f15c91b07ec53a61b1060f246f00baba715dff3cdba3
+SHA512: d0f7aa86313cedc00e05124e35ea63b11806d904ca6a2a40e06ef58f28be21f71640c172a41e07c879c8c0796ce4de32fe3e616ae294c0ed50fd165dff04760b
+Description: Nginx stable releases
 
-Package: repo-nginx-stable
+Package: repo-nginx-next
 Architecture: all
 Version: 1.0.0
 Maintainer: apt@softvisio.net
 Installed-Size: 52
 Depends:
 Recommends:
-Conflicts: repo-nginx-latest
-Replaces: repo-nginx-latest
-Filename: dists/binary-all/repo-nginx-stable_1.0.0_all.deb
-Size: 9086
-MD5sum: 66e504fd1bb6dd94df08f790fea15ed5
-SHA1: 15a3260cc58a3890b9778c10381518d10f0c06a6
-SHA256: d3e8f308e260e03348a4d96595e8611c0fabf4b6e48b13522e6eb9fab566fd90
-SHA512: 2270d8d31c47db7a5737529272d4621904536a8d71341f1339f352fbf665161aea06b0756aec04c31db3c7d2831844afd351a8ea68b12f6b07b27c0f263a9fb0
-Description: Nginx stable releases
+Conflicts:
+Replaces:
+Filename: dists/binary-all/repo-nginx-next_1.0.0_all.deb
+Size: 9084
+MD5sum: 9f40403d1fb6d0b53a1d88daba1c649e
+SHA1: 97c2414cc3a0c5481155bdfe3422ad6bc9f7415c
+SHA256: b850afd8ed5071c6a7edc397bdb997cee622d3ab769f9de194f8501372a1efee
+SHA512: 26be10e6816b26acd66ad7e027c10b1b43872044b96f5dd60120be1a4395d4e42f7fb3e14d36d6cebb701dfe43372dadf87a0265fb7c41e59d5eef5cb14a6c96
+Description: Nginx mainline releases
 
 Package: repo-postgresql
 Architecture: all

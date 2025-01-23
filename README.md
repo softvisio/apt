@@ -28,13 +28,15 @@ Generate key:
 export GNUPGHOME="$(mktemp -d)"
 
 gpg --batch --generate-key << EOF
-     Key-Type: ECDSA
-     Key-Curve: NIST P-384
-     Key-Usage: sign
-     Name-Email: apt@softvisio.net
-     Expire-Date: 0
-     %no-protection
-     %commit
+    Name-Email: apt@softvisio.net
+    Name-Real:
+    Name-Comment
+    Key-Type: ECDSA
+    Key-Curve: NIST P-384
+    Key-Usage: sign
+    Expire-Date: 0
+    %no-protection
+    %commit
 EOF
 
 gpg --export --armor --output public-key.asc apt@softvisio.net

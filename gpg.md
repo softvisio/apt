@@ -14,14 +14,14 @@ EOF
 
 gpg --batch --generate-key foo
 
-gpg --keyring ./pubring.kbx --list-secret-keys
+gpg --list-secret-keys --no-default-keyring --keyring ./pubring.kbx
 
 gpg --keyring ./pubring.kbx --armor --export-secret-keys --output private-key.pem apt@softvisio.net
 gpg --keyring ./pubring.kbx --armor --export --output public-key.pem apt@softvisio.net
 
-gpg --dearmor -o 1.kbx private-key.pem
+gpg --dearmor -o pubring.kbx private-key.pem
 
-gpg --clearsign --keyring ./1.kbx --output foo.sign foo
+gpg --clearsign --keyring ./pubring.kbx --output foo.sign foo
 
 gpg --verify --keyring ./pubring.kbx foo.sign
 ```

@@ -1,27 +1,21 @@
 ```shell
 export GNUPGHOME="$(mktemp -d)"
 
-cat > foo << EOF
+gpg --batch --generate-key << EOF
      Key-Type: ECDSA
      Key-Curve: NIST P-384
      Key-Usage: sign
      Name-Email: apt@softvisio.net
      Expire-Date: 0
-     %pubring pubring.kbx
      %no-protection
      %commit
 EOF
 
-gpg --batch --generate-key foo
+gpg --export --armor --output public-key.asc apt@softvisio.net
+gpg --export-secret-key --armor --output private-key.asc apt@softvisio.net
 
-gpg --list-secret-keys --no-default-keyring --keyring ./pubring.kbx
+gpg --import private-key.asc
 
-gpg --keyring ./pubring.kbx --armor --export-secret-keys --output private-key.pem apt@softvisio.net
-gpg --keyring ./pubring.kbx --armor --export --output public-key.pem apt@softvisio.net
-
-gpg --dearmor -o pubring.kbx private-key.pem
-
-gpg --clearsign --keyring ./pubring.kbx --output foo.sign foo
-
-gpg --verify --keyring ./pubring.kbx foo.sign
+gpg --clearsign private-key.asc
+gpg --verify private-key.asc.asc
 ```

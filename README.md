@@ -35,6 +35,7 @@ gpg --batch --generate-key << EOF
     Key-Curve: NIST P-384
     Key-Usage: sign
     Expire-Date: 0
+    Keyserver: hkps://keyserver.ubuntu.com
     %no-protection
     %commit
 EOF

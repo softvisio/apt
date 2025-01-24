@@ -28,12 +28,15 @@ Generate key:
 export GNUPGHOME="$(mktemp -d)"
 
 gpg --batch --generate-key << EOF
+    Key-Type: EDDSA
+    Key-Curve: ed25519
+    Key-Usage: cert
+    Subkey-Type: EDDSA
+    Subkey-Curve: ed25519
+    Subkey-Usage: sign
     Name-Email: apt@softvisio.net
-    Name-Real:
-    Name-Comment:
-    Key-Type: ECDSA
-    Key-Curve: NIST P-384
-    Key-Usage: sign
+    # Name-Real:
+    # Name-Comment:
     Expire-Date: 0
     Keyserver: hkps://keyserver.ubuntu.com
     %no-protection

@@ -1,29 +1,29 @@
 Architectures: all amd64
 Codename: 24.04
 Components: main
-Date: Fri, 24 Jan 2025 01:41:24 +0000
+Date: Fri, 24 Jan 2025 02:15:52 +0000
 Label: Softvisio repository
 Suite: 24.04
 MD5Sum:
- d2d5c5b1bad51cff641fb3c4e27fee57             2339 Release
+ 55286ea6a1e7ec97f38545b8c54949dc             2339 Release
  8dfea5f651e280277dbd1d30fec1fcbc             6419 main/binary-all/Packages
  696aa935ac6bbae995d66853430dc59c             2490 main/binary-all/Packages.gz
  030cbf99b19b17a410fafd812ff9f193             2404 main/binary-amd64/Packages
  61bb6058511a30b6ce8668019874080c             1072 main/binary-amd64/Packages.gz
 SHA1:
- 4ed8fab3dbda32eb7e165911cdfaca6c66b77903             2339 Release
+ a9a9f8adf1225c95997195b40773ff66c80e3735             2339 Release
  47bfa2c94fbbb22ef2cfce13c7a38ad8815bc8f0             6419 main/binary-all/Packages
  a882d2d96cf22f89c5bb4408ec54804f15dc57e4             2490 main/binary-all/Packages.gz
  80c52f36286c5ad420b2b37f31e8829a7982a940             2404 main/binary-amd64/Packages
  9e7e9371f711fa71a2fb8f2f61016b42d400b468             1072 main/binary-amd64/Packages.gz
 SHA256:
- 46780b82b05831fe729c990d4cf1d7e83a5005cb0e002359ce56039fbeda8464             2339 Release
+ 96e53d655a4370e1a701c571b5e8ca5a6311cd448043030d3ca3e46e81eaf2ea             2339 Release
  98e282bb2089fd9e0822aad65d45dc6614dddf31471a467c0a04571daef4d6ef             6419 main/binary-all/Packages
  be8498a98b3547d79ba56aa5d5d5dbac9b26af73f99a570c443161592149ff76             2490 main/binary-all/Packages.gz
  c3bb194f323c2dc6c3a77dc0ec19d84b9d8f7947e4400567778e7bc82924f436             2404 main/binary-amd64/Packages
  386aca22c6645b12a3e615a9f8c938b623046fa2e8c33957e941329577ac41d6             1072 main/binary-amd64/Packages.gz
 SHA512:
- 814e219b496ec86d715c62405e82149bcad7b55f148e088df94989583d03d57a4acdf04d054695bb227b5d2839a612e113b7a11b27d9fcee214e58887b073d2d             2339 Release
+ 7fdb05d7d91baa0241553eaf7c61b9fc1634914581e4fdd1ddb186ad0d90520bb9946e13eebb17882a495a8e82977d224683bc7e2728845907debecb92d5a692             2339 Release
  c6cfffa73d0a9686781380a7e3cb82bd6c04aa51b167314c19c331e0fec5cc0aeecdeec595273e62e5ef23f770623cf98f3c1d92f1640d8b79eae2b4a2162f81             6419 main/binary-all/Packages
  141eabb6fe83eb1578bd36d02406efec1c18e92b2de46d111eea60377bd292567ab001929e16e3021fee91b19a8cfed64270a2ddc217afa8fb41c41b20889880             2490 main/binary-all/Packages.gz
  83901795db26cb2c9af95267549acd3483d1c889ecafaf78563c6e9cf91930e42059b843e416f60caafef81a832b990cf6ab6bc80e4ce3f2e3735f22f60a289d             2404 main/binary-amd64/Packages

@@ -13,5 +13,5 @@ PREFIX=/usr/local
 
 function build() {
     mkdir -p ${DESTDIR}${PREFIX}
-    curl -fsSL https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz | tar -C ${DESTDIR}${PREFIX} --strip-components=1 -xz
+    curl -fsSL https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.tar.gz | tar -C ${DESTDIR}${PREFIX} --strip-components=1 -xz
 }

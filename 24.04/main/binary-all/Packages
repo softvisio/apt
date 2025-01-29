@@ -29,6 +29,23 @@ SHA256: e01bd341f58cb9a651199cd49b6e6ddf9241349143bae196c9a6b0128bbbf451
 SHA512: 859bc6426b3061a1a5dff36ead69b29dcf7e494a7a18eb670c964d5cd5e36549fa95643fd4c4ae81b19917c681ea872b98ea5502ff0a2ddb8f8ef0b87a69ea75
 Description: Neovim stable build
 
+Package: repo-bcompare
+Architecture: all
+Version: 1.0.0-1
+Maintainer: apt@softvisio.net
+Installed-Size: 40
+Depends:
+Recommends:
+Conflicts:
+Replaces:
+Filename: dists/binary-all/repo-bcompare_1.0.0-1_all.deb
+Size: 3182
+MD5sum: 6c79b645f51f8a8a5b2a84de9b76784e
+SHA1: c251e1770f4eacfd16067191e1e05983902f88fe
+SHA256: 189baaead63494c3b948ba2b114b763a7ebd2c4ac7c332cd5fc2b731f370f6d6
+SHA512: d6d14f493bc8e3604f55c5fcffd639fc37a9d55b1df35cf94ba9fc3b378805776d9cd10bbbc83045ebf8f41fa3b2496b588f9eb3e77d728044336c5070d3b4cf
+Description: Official BCompare repository
+
 Package: repo-docker
 Architecture: all
 Version: 1.0.0

@@ -4,37 +4,37 @@ Hash: SHA512
 Architectures: all amd64
 Codename: 24.04
 Components: main
-Date: Wed, 29 Jan 2025 15:36:31 +0000
+Date: Wed, 29 Jan 2025 16:19:58 +0000
 Label: Softvisio repository
 Suite: 24.04
 MD5Sum:
- 0e3b5e5ed7240b3c4997724cb9b6749a             2339 Release
- 851ef30f95868e1fd65d43c02404e92a             6977 main/binary-all/Packages
- 98d4bc097a841c4c8c197d51fd211c27             2669 main/binary-all/Packages.gz
+ 6f2d045597c2a535e02c2c18eff3d1cb             2339 Release
+ 94481be5a6ad5c26a3f6a87803b5a499             6976 main/binary-all/Packages
+ d232ecf6c8bb23b1d519ae840fc5fcef             2678 main/binary-all/Packages.gz
  030cbf99b19b17a410fafd812ff9f193             2404 main/binary-amd64/Packages
  61bb6058511a30b6ce8668019874080c             1072 main/binary-amd64/Packages.gz
 SHA1:
- bad407a301a6cbd5aafcdc658069196e36b24f3a             2339 Release
- 934894e3bc924a6ec042988d13a32149a42f264f             6977 main/binary-all/Packages
- 2ef12a182f286bc5af4cc951d1e621c3184bbfe9             2669 main/binary-all/Packages.gz
+ d5be08a4c7c8bf3237ab0aa00f81536817839071             2339 Release
+ 03e5ebc23886f4682c3bbd42f287e50fb7db0388             6976 main/binary-all/Packages
+ fa5c7a7a3afb2dc64d15e76a2df1fa031b2762ce             2678 main/binary-all/Packages.gz
  80c52f36286c5ad420b2b37f31e8829a7982a940             2404 main/binary-amd64/Packages
  9e7e9371f711fa71a2fb8f2f61016b42d400b468             1072 main/binary-amd64/Packages.gz
 SHA256:
- f6b2143f67bc47d9f0990139f138c01832858a07321c7d082b2b74966eaf7961             2339 Release
- 72fa8a946f8d847e694c51db245723c5c8c98357468fe0968cdbf9b5b173a15c             6977 main/binary-all/Packages
- 9a3ac967d4f8371f589522860281d3080830ec2b3acce1fe6568ab14c2fb40b3             2669 main/binary-all/Packages.gz
+ be24fe0139ab30d2e2daa40ea048ccdc2a6a2eb58fde93c9527446d2c1703209             2339 Release
+ 22faa5619175931106d15ecb4b234c68113e079858b846dfb2f54debfe171fa0             6976 main/binary-all/Packages
+ 4e4f0572d35c79b98e7f7c2bf1d8c26b54435471eaf457f82f95bd7ea9606bc6             2678 main/binary-all/Packages.gz
  c3bb194f323c2dc6c3a77dc0ec19d84b9d8f7947e4400567778e7bc82924f436             2404 main/binary-amd64/Packages
  386aca22c6645b12a3e615a9f8c938b623046fa2e8c33957e941329577ac41d6             1072 main/binary-amd64/Packages.gz
 SHA512:
- ec9b30bfe7aa1228c155164b2c86461aee14163e50568778dba35833fe6ca13e4a2f88bd18be4d4e60af8a822cb0cbd2a0b53fa7ca1befd0ae14bf676951b89a             2339 Release
- 4791a4b03465d000ac313cf4d468071c20714e350b98767ec53704f773d5feb23974949a479ec06b4d68ca035afe5ff5d5b19b39f19039abc1c69598311bf39e             6977 main/binary-all/Packages
- 864e0763c6a36aad2e6db037e20c2a36819be30bfbde021c5b452ecf7ea809cf31c39341e656b4db10ba8a968014d0f69a2ce0e2576c553758e824bd73fc8f3d             2669 main/binary-all/Packages.gz
+ fb2f71a8d4f3786fa7446459a1cee3587437005905a7cfa92022a70f2f4f0d2995667c22cdd80d10fa0d9f59e30e91bde2d61d6eb2f60c3741b857f48da1aa25             2339 Release
+ 3131b726b772a65a56927862e899d4e2b7ddcdadfee2f947eee2dc1f2aa4bac64d4e34adf585312e6155444e5a8d28f109c1f4df291bfea54475f5174883a993             6976 main/binary-all/Packages
+ 883dadb48449693833ddf4a7aa38d4124596df1499d3ea49388f9226380e8d9b773294013de0da366ba9f3cd7ff1eaa6b959c74984318bb71ca279b19607f464             2678 main/binary-all/Packages.gz
  83901795db26cb2c9af95267549acd3483d1c889ecafaf78563c6e9cf91930e42059b843e416f60caafef81a832b990cf6ab6bc80e4ce3f2e3735f22f60a289d             2404 main/binary-amd64/Packages
  8bb473cd601bcf790cf014b176b00a758d0ce4621e1481edb6ae10f6413ced3d0e1deed3516f707f347471e6edac68161436dce6bb6ae9a9f932787d5fab3609             1072 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iIgEARYKADAWIQQ0CbtrlYNXPsVDSecRJZ8cI8v2lAUCZ5pK/xIcYXB0QHNvZnR2
-aXNpby5uZXQACgkQESWfHCPL9pQLSAEAntSTGpQqHB/z/nBc+HcJB/FLQPtyIV5c
-34VqsWHMKMEA/j4WHxopyJJ+ZePa/mNyCdtbFWWQtmJhUATeGtzX3CUO
-=JTyP
+iIgEARYKADAWIQQ0CbtrlYNXPsVDSecRJZ8cI8v2lAUCZ5pVLhIcYXB0QHNvZnR2
+aXNpby5uZXQACgkQESWfHCPL9pTILQD/fH/ZKtWPPbGiXGth4p2Id+ifdniSHrNE
+fCncDwlggsIBANq3uQ4DpFFnEmK9gFohFPNXug1DZwDGEcTTVr5plxMI
+=bDks
 -----END PGP SIGNATURE-----

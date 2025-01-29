@@ -33,17 +33,17 @@ Package: repo-bcompare
 Architecture: all
 Version: 1.0.0-1
 Maintainer: apt@softvisio.net
-Installed-Size: 40
+Installed-Size: 24
 Depends:
 Recommends:
 Conflicts:
 Replaces:
 Filename: dists/binary-all/repo-bcompare_1.0.0-1_all.deb
-Size: 3182
-MD5sum: 6c79b645f51f8a8a5b2a84de9b76784e
-SHA1: c251e1770f4eacfd16067191e1e05983902f88fe
-SHA256: 189baaead63494c3b948ba2b114b763a7ebd2c4ac7c332cd5fc2b731f370f6d6
-SHA512: d6d14f493bc8e3604f55c5fcffd639fc37a9d55b1df35cf94ba9fc3b378805776d9cd10bbbc83045ebf8f41fa3b2496b588f9eb3e77d728044336c5070d3b4cf
+Size: 778
+MD5sum: c41756cb09003d4c5e2f17ba23d32cda
+SHA1: 1704fcaa610d883b2c5d7882d74e1323ecdafb3a
+SHA256: d17ff491c006703e67d8554aef12e4e6b64b457ca536457265ff3fef7b31ce8a
+SHA512: 6787cd76db98217ffb5be84042912a487e8e5ae9c1ca4f0682f33bf01074c5af9b558893599f8fdcf6aaab88851ce11eef665b19cd1270fb278f4488f6e0e47d
 Description: Official BCompare repository
 
 Package: repo-docker

@@ -39,11 +39,11 @@ Recommends:
 Conflicts:
 Replaces:
 Filename: dists/binary-all/repo-bcompare_1.0.0-1_all.deb
-Size: 3164
-MD5sum: 2117cf55670e23bbff56ceb83621bded
-SHA1: 6da5490e50805c131888978be117a911d2b1932a
-SHA256: dee529f3129a88bb25b1210baf4c7ac0a7fafa32a2d4dbaeaf5bfad0bb5e662e
-SHA512: 417a460f322197fabb654cc9ccad0f4deb65c1bba6f618f2f31cda7d6903bc5c69c2220478f86928523266760b268058be2b239795e4b12f30d5e949d434f09b
+Size: 3186
+MD5sum: 8da40daae086faefdc1e9cd5d4647800
+SHA1: 5c0add5816d7a526c48a4174d83a5d8c835478b8
+SHA256: 2f2c95cbb2c776f6b422bae79b45a030bae22a1985512d45defae84a62a7e829
+SHA512: b0f7b865a0b4fee99508a92570fbc368ad9105b3bc25d907b54afaa1d69e8e54f5cc14cb7baf8124ca7865cf5957d65bd8c80d8de810fda9d7653d17e2ed99bb
 Description: Official BCompare repository
 
 Package: repo-docker

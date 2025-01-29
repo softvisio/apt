@@ -14,19 +14,19 @@ Description: Node version management
 
 Package: nvim
 Architecture: all
-Version: 0.10.3
+Version: 0.10.4
 Maintainer: apt@softvisio.net
 Installed-Size: 42264
 Depends:
 Recommends:
 Conflicts:
 Replaces:
-Filename: dists/binary-all/nvim_0.10.3_all.deb
-Size: 11880184
-MD5sum: 56e88523be13532a7ae714a4c4cce684
-SHA1: 2a481092d605d2161ff5a96eced7cf9ac7bdc76f
-SHA256: e01bd341f58cb9a651199cd49b6e6ddf9241349143bae196c9a6b0128bbbf451
-SHA512: 859bc6426b3061a1a5dff36ead69b29dcf7e494a7a18eb670c964d5cd5e36549fa95643fd4c4ae81b19917c681ea872b98ea5502ff0a2ddb8f8ef0b87a69ea75
+Filename: dists/binary-all/nvim_0.10.4_all.deb
+Size: 11880988
+MD5sum: 9fa13520064c06062641689618fd0406
+SHA1: bffd546c642342ad25a1669e3e390e47e8ac65fc
+SHA256: fd957ffc680572217a622a6935bb9236425c33f0040a3e4ec9e675c9756cf932
+SHA512: e6f486872b9b8cac937c29ca09a193aacb9c3c1ee104dcfe5127a9f7d1932ed076ab7de938728277ecddebd367c0e87a6a7d395db90401b2086e8c7d04f81dad
 Description: Neovim stable build
 
 Package: repo-bcompare

@@ -1,30 +1,30 @@
 Architectures: all amd64
 Codename: 24.04
 Components: main
-Date: Wed, 29 Jan 2025 16:19:58 +0000
+Date: Wed, 29 Jan 2025 16:32:11 +0000
 Label: Softvisio repository
 Suite: 24.04
 MD5Sum:
- 6f2d045597c2a535e02c2c18eff3d1cb             2339 Release
- 94481be5a6ad5c26a3f6a87803b5a499             6976 main/binary-all/Packages
- d232ecf6c8bb23b1d519ae840fc5fcef             2678 main/binary-all/Packages.gz
+ e6ccd2c9b639e8b9f4507488b66c3d1f             2339 Release
+ 6c094f289c87093e1581f30bc1f11efd             6977 main/binary-all/Packages
+ 4573cf72567c95d41653a6e1b21208ce             2670 main/binary-all/Packages.gz
  030cbf99b19b17a410fafd812ff9f193             2404 main/binary-amd64/Packages
  61bb6058511a30b6ce8668019874080c             1072 main/binary-amd64/Packages.gz
 SHA1:
- d5be08a4c7c8bf3237ab0aa00f81536817839071             2339 Release
- 03e5ebc23886f4682c3bbd42f287e50fb7db0388             6976 main/binary-all/Packages
- fa5c7a7a3afb2dc64d15e76a2df1fa031b2762ce             2678 main/binary-all/Packages.gz
+ 7770043648181a704bf48d768072189b1ffe5f5e             2339 Release
+ adec9e8f312ef76b17ab80b21f71f071dd62ac67             6977 main/binary-all/Packages
+ 116a4f21cb1c5ea4cf556678580c2e1dbcf24c16             2670 main/binary-all/Packages.gz
  80c52f36286c5ad420b2b37f31e8829a7982a940             2404 main/binary-amd64/Packages
  9e7e9371f711fa71a2fb8f2f61016b42d400b468             1072 main/binary-amd64/Packages.gz
 SHA256:
- be24fe0139ab30d2e2daa40ea048ccdc2a6a2eb58fde93c9527446d2c1703209             2339 Release
- 22faa5619175931106d15ecb4b234c68113e079858b846dfb2f54debfe171fa0             6976 main/binary-all/Packages
- 4e4f0572d35c79b98e7f7c2bf1d8c26b54435471eaf457f82f95bd7ea9606bc6             2678 main/binary-all/Packages.gz
+ 2ee764c47fc4514bdc938ceedae9e6f1095b2603b62bd00ae8dbb748c3a635bf             2339 Release
+ 71fa1bf592affafc9766e83a9dac1c025d336debd96814004b9728c0eeec05da             6977 main/binary-all/Packages
+ 10d3a485b668b4d99e7badf03262dd2694d859b240baa36e73253bb19fada880             2670 main/binary-all/Packages.gz
  c3bb194f323c2dc6c3a77dc0ec19d84b9d8f7947e4400567778e7bc82924f436             2404 main/binary-amd64/Packages
  386aca22c6645b12a3e615a9f8c938b623046fa2e8c33957e941329577ac41d6             1072 main/binary-amd64/Packages.gz
 SHA512:
- fb2f71a8d4f3786fa7446459a1cee3587437005905a7cfa92022a70f2f4f0d2995667c22cdd80d10fa0d9f59e30e91bde2d61d6eb2f60c3741b857f48da1aa25             2339 Release
- 3131b726b772a65a56927862e899d4e2b7ddcdadfee2f947eee2dc1f2aa4bac64d4e34adf585312e6155444e5a8d28f109c1f4df291bfea54475f5174883a993             6976 main/binary-all/Packages
- 883dadb48449693833ddf4a7aa38d4124596df1499d3ea49388f9226380e8d9b773294013de0da366ba9f3cd7ff1eaa6b959c74984318bb71ca279b19607f464             2678 main/binary-all/Packages.gz
+ 85d509b3e1f49d5792b108c061e8cc9843e3265d4a26c01b12db8ad04df8d40509d3964c397eaf4ba6a5ab26e9aec86ba35eaced86947b1d94055beb4fb3e40b             2339 Release
+ 2b91b34601608b2f8f66160f2a484adb11345d70e30d55fed0c4af721a23eb71cde9f45e32eb9c406c0c03d39074fefd4a422787db3ed5604bf15c79014017e8             6977 main/binary-all/Packages
+ c291490922d8833bf55e02be9d60d99538d9c932f377e44a9346758eee47ec57f6844b61481aedb3df6908e99225e26b02d1b7b434c0579c77da0df0be4c3ead             2670 main/binary-all/Packages.gz
  83901795db26cb2c9af95267549acd3483d1c889ecafaf78563c6e9cf91930e42059b843e416f60caafef81a832b990cf6ab6bc80e4ce3f2e3735f22f60a289d             2404 main/binary-amd64/Packages
  8bb473cd601bcf790cf014b176b00a758d0ce4621e1481edb6ae10f6413ced3d0e1deed3516f707f347471e6edac68161436dce6bb6ae9a9f932787d5fab3609             1072 main/binary-amd64/Packages.gz

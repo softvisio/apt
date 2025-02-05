@@ -3,9 +3,6 @@
 # install
 # /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/deb/main/setup.sh) install
 
-# re-install
-# /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/deb/main/setup.sh) reinstall
-
 # remove
 # /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/deb/main/setup.sh) remove
 
@@ -25,8 +22,6 @@ function _remove() {
 }
 
 function _install() {
-    _remove
-
     apt-get install -y gpg
 
     curl -fsSL https://raw.githubusercontent.com/$REPO_SLUG/main/public-key.asc | gpg --dearmor -o /usr/share/keyrings/${REPO_NAME}-archive-keyring.gpg
@@ -41,10 +36,6 @@ EOF
 
 case "$1" in
     install)
-        _install
-        ;;
-
-    reinstall)
         _remove
         _install
         ;;

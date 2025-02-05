@@ -1,18 +1,18 @@
 Package: nginx-latest
 Architecture: amd64
-Version: 1.26.2
+Version: 1.26.3
 Maintainer: apt@softvisio.net
 Installed-Size: 6616
 Depends: libpcre3
 Recommends:
 Conflicts: nginx-next
 Replaces: nginx-next
-Filename: dists/24.04/main/binary-amd64/nginx-latest_1.26.2_amd64.deb
-Size: 3080824
-MD5sum: 30742981fe20097e5d87437f8e8cf064
-SHA1: 4ed274c4b5a92e619d35df5c219b10e1ced9c5e8
-SHA256: 2b309ce03d21dd2d64dd5081448b8bfedd0100cd2bcb753e52107cd594390832
-SHA512: 3f22fb55570617a5f3996af401c6feb1b50415ee798e4fda85963359102fbb4f678fcce7a920d1e9497d8692fd817411689d92cdb6b737a0c18e7803d0c91a7d
+Filename: dists/24.04/main/binary-amd64/nginx-latest_1.26.3_amd64.deb
+Size: 3081112
+MD5sum: b7b43b3c16f4283fcacf6fb0fa77d9e9
+SHA1: 9b9b891dd6a89285d30640563dfde9d47a11d88c
+SHA256: 0911e2f70e090170b31c50a10ce46dea9eb0074b5d29f9f114d094cce815d909
+SHA512: 827f7b75e989317cf8267ea42f74a3c54d7cc7c7bafa006fdebd3bf9495cc1bf322256bdf4725b1e3bf3d0e0e051abe54a685b7836b5b304f95030797334e261
 Description: A high performance web server and reverse proxy server
 
 Package: nginx-next

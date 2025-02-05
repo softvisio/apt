@@ -1,18 +1,18 @@
 #!/bin/bash
 
 # install
-# /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/setup.sh) install
+# /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/deb/main/setup.sh) install
 
 # re-install
-# /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/setup.sh) reinstall
+# /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/deb/main/setup.sh) reinstall
 
 # remove
-# /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/setup.sh) remove
+# /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/deb/main/setup.sh) remove
 
 set -e
 
 REPO_NAME=softvisio
-REPO_SLUG=softvisio/apt
+REPO_SLUG=softvisio/deb
 COMPONENT=main
 VERSION_ID=$(. /etc/os-release && echo $VERSION_ID)
 

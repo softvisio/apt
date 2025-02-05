@@ -1,15 +1,15 @@
-# Apt repository
+# Deb repository
 
 ### Install repository
 
 ```shell
-/bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/setup.sh) install
+/bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/deb/main/setup.sh) install
 ```
 
 ### Remove repository
 
 ```shell
-/bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/setup.sh) remove
+/bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/deb/main/setup.sh) remove
 ```
 
 ### Manually install GPG key
@@ -17,7 +17,7 @@
 Import public key
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/softvisio/apt/main/public-key.asc | gpg --dearmor -o /usr/share/keyrings/softvisio-archive-keyring.gpg
+curl -fsSL https://raw.githubusercontent.com/softvisio/deb/main/public-key.asc | gpg --dearmor -o /usr/share/keyrings/softvisio-archive-keyring.gpg
 ```
 
 ### GPG
@@ -34,7 +34,7 @@ gpg --batch --generate-key << EOF
     Subkey-Type: EdDSA
     Subkey-Curve: Ed25519
     Subkey-Usage: sign
-    Name-Email: apt@softvisio.net
+    Name-Email: deb@softvisio.net
     # Name-Real:
     # Name-Comment:
     Expire-Date: 0
@@ -43,8 +43,8 @@ gpg --batch --generate-key << EOF
     %commit
 EOF
 
-gpg --export --armor --output public-key.asc apt@softvisio.net
-gpg --export-secret-key --armor --output private-key.asc apt@softvisio.net
+gpg --export --armor --output public-key.asc deb@softvisio.net
+gpg --export-secret-key --armor --output private-key.asc deb@softvisio.net
 ```
 
 Sign:
@@ -59,10 +59,10 @@ gpg --clearsign private-key.asc
 
 ```shell
 # clone "main" branch
-git clone --single-branch --branch main git@github.com:softvisio/apt.git
+git clone --single-branch --branch main git@github.com:softvisio/deb.git
 
 # clone "dists" branch
-git clone --single-branch --branch dists git@github.com:softvisio/apt.git dists
+git clone --single-branch --branch dists git@github.com:softvisio/deb.git dists
 
 # init "dists" branch
 git switch --orphan dists
@@ -81,17 +81,17 @@ npm install --global @softvisio/cli
 Build docker images:
 
 ```shell
-softvisio-cli apt build-images
+softvisio-cli deb build-images
 ```
 
 Build packages:
 
 ```shell
 # build all packages
-softvisio-cli apt build all
+softvisio-cli deb build all
 
 # build "nginx-stable" package
-softvisio-cli apt build nginx-stable
+softvisio-cli deb build nginx-stable
 ```
 
 Update repository data:

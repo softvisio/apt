@@ -17,19 +17,19 @@ Description: A high performance web server and reverse proxy server
 
 Package: nginx-next
 Architecture: amd64
-Version: 1.27.3
+Version: 1.27.4
 Maintainer: apt@softvisio.net
-Installed-Size: 6716
+Installed-Size: 6752
 Depends: libpcre3
 Recommends:
 Conflicts: nginx-latest
 Replaces: nginx-latest
-Filename: dists/24.04/main/binary-amd64/nginx-next_1.27.3_amd64.deb
-Size: 3147108
-MD5sum: 1111337549ff97d800220d44589a282d
-SHA1: 21c2448f4df18c853bce6bee2a19a4648aa80bd8
-SHA256: 6d9a20ac2d64adb40e2109ae4889b3f753f25cc10212b58f459dcbb4740d5257
-SHA512: caf9e45f1351f89cc8a19c160ac98f4e6558dc425bc271dcdd79c3a7dbd61ab058ef17fba282996063d07e31261af7eed4be745c11bee2d8be04db2713b0b5f5
+Filename: dists/24.04/main/binary-amd64/nginx-next_1.27.4_amd64.deb
+Size: 3165166
+MD5sum: 6910ef8e1176cf7b74d8c2bd658f07f3
+SHA1: b30a2351e4e2acd9c5bf84bce6c6ed2a95913abf
+SHA256: f86dba60092ee4e7474093bb164b4a5e6069e112c0ac7fb1e6370f4313552fb6
+SHA512: a9e93e9aaebdfe6bd6a14b2fd5c6165370b3e0543fab2082aa78e3a56207b2c5d53a847d0b9430b89bdbc9937dbc4f52d4b538f92d1846a1762e0cb840e1c406
 Description: A high performance web server and reverse proxy server
 
 Package: postgresql-17-softvisio-admin

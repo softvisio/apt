@@ -1,4 +1,4 @@
-# Deb repository
+# Debian package repository
 
 ### Install repository
 
@@ -55,7 +55,7 @@ gpg --import private-key.asc
 gpg --clearsign private-key.asc
 ```
 
-### Init reposutory
+### Init repository
 
 ```shell
 # clone "main" branch
@@ -90,12 +90,12 @@ Build packages:
 # build all packages
 softvisio-cli deb build all
 
-# build "nginx-stable" package
-softvisio-cli deb build nginx-stable
+# build "nginx-latest" package
+softvisio-cli deb build nginx-latest
 ```
 
 Update repository data:
 
 ```shell
-softvisio-cli update
+softvisio-cli deb update
 ```

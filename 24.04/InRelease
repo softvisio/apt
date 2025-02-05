@@ -4,37 +4,37 @@ Hash: SHA512
 Architectures: all amd64
 Codename: 24.04
 Components: main
-Date: Wed, 05 Feb 2025 21:14:52 +0000
+Date: Wed, 05 Feb 2025 21:58:25 +0000
 Label: Softvisio repository
 Suite: 24.04
 MD5Sum:
- 5c468289485ff3fe8d58ff101059579e             2339 Release
+ 544a8e69fb19f2ef09ff25c2dc6301a8             2339 Release
  a37d4fd988e3fcbae49b74f32f642c7e             6977 main/binary-all/Packages
  111479e53ceaa947318aaf7fd0710d9f             2665 main/binary-all/Packages.gz
  f262d1719e26533721efd88b894f4b51             2404 main/binary-amd64/Packages
  35ef1e649325c57a20a99896146b804c             1072 main/binary-amd64/Packages.gz
 SHA1:
- f8a09d68827ad8329f8e1cd4128e37bf01291956             2339 Release
+ 56d2386aa5872a33151652e37d5c71bf8f336e21             2339 Release
  61f81915e41228f4cb2cc03e782018f9f71ce08c             6977 main/binary-all/Packages
  7a73a2fc0efa405a8d9d7a517a5f3f8af8d6c412             2665 main/binary-all/Packages.gz
  ba75c796a5ee75d435600a11264f88b78f1764a9             2404 main/binary-amd64/Packages
  287961685db2aed9669851b8b1a0615e97ca5902             1072 main/binary-amd64/Packages.gz
 SHA256:
- 9e99bb35571a107db89be0fcbe5d3df44e6724e37754cada1f73579305eeb482             2339 Release
+ a2c942cc89ceb7dc69a5940a7dc475a8e67d4e0d90d9a150f239c33b0cee622b             2339 Release
  48cf964dd3faf8d74cede0514969e5e1eb405fe73f9918b3ecbee6bdad37d7b8             6977 main/binary-all/Packages
  36328f22cc82bb3a3ae87d53c43c09fa314b3c15ca8813cd2cdac5b7439d285d             2665 main/binary-all/Packages.gz
  047233e3693af35413f8fed20b7eb95237950278e81f96a621128f721d806fce             2404 main/binary-amd64/Packages
  091c860074770b196a90eddfa6c7ce85a10d11d8f2053977179cd9bf6a1ef9aa             1072 main/binary-amd64/Packages.gz
 SHA512:
- 115bd7fdbcb12389c88d8a50398db435225d871040f17d6203a888a8143730fd34592beed77549745c046fd5761f5715f9b0ddb43b0fdb0e013d3407e56e3c8a             2339 Release
+ 59fde7e6c69cb02aeaf4bb328737db17aed14b089a1411ca955848ca3f85010a46cc6a1e48da3fbbda1a8fb584b0ffe280b6da565520252bfcf10821e1fe7bdf             2339 Release
  0cd26b945ea1f9a7561c9a092275be1d944806bf54852a0b97dd908af0d3d5da5246075cf034668684fce302095528fffce22c49ea818af37e6fd7f42db26713             6977 main/binary-all/Packages
  eeb72e0f8907b9ad4a777b55b4553d75e52b19f11d384954f159fdf7d269f05fa92df494d3594a17a59bb16611d9faadda86439f84935e2f6ff8f68b153177ce             2665 main/binary-all/Packages.gz
  9b112ecf25bbdb0453301e7babc335bed40dfd79a4ad3a69984979bb2e1b8b9b3607ab796d6599415c05f84fa09e7b462cbe052f802fac483519fb6d17444ea3             2404 main/binary-amd64/Packages
  4aab0ea88565b2d2636982e63b4524996328d89626d07753710610e0622692c98fc592a08a4b42ebe836ec49074029aa461a70ed925045c1a04b698982c97311             1072 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iIgEARYKADAWIQQ0CbtrlYNXPsVDSecRJZ8cI8v2lAUCZ6PUzBIcYXB0QHNvZnR2
-aXNpby5uZXQACgkQESWfHCPL9pQmnwD/TjCbx79bE3JvWGhxRD5OPaAqs1UzxfGw
-Misxy3Vt6hsBAPGvoGn9c9s72OFfAe7cRNjS7jwecRBoK+ODap/mvzEK
-=BwDY
+iIgEARYKADAWIQQ0CbtrlYNXPsVDSecRJZ8cI8v2lAUCZ6PfARIcZGViQHNvZnR2
+aXNpby5uZXQACgkQESWfHCPL9pTflQEAqahvZ9rgrsI97YJ01KkRcO+eZxDoV7d9
+7Ig303axfrkA/1+R5wAVuR92CIlqRN9ijdiPR4icNdD1ganplq2bW0UO
+=xfbS
 -----END PGP SIGNATURE-----

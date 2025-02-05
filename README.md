@@ -88,7 +88,7 @@ Build packages:
 
 ```shell
 # build all packages
-softvisio-cli deb build all
+softvisio-cli deb build *
 
 # build "nginx-latest" package
 softvisio-cli deb build nginx-latest

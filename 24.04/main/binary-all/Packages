@@ -1,32 +1,35 @@
 Package: n
 Architecture: all
 Version: 10.1.0
-Maintainer: apt@softvisio.net
+Maintainer: deb@softvisio.net
 Installed-Size: 312
 Depends:
+Recommends:
+Conflicts:
+Replaces:
 Filename: dists/binary-all/n_10.1.0_all.deb
-Size: 38288
-MD5sum: 99b103c1e190fabe17f8c10c7e43198f
-SHA1: d1dd62bf3baa3d53ed01cbafec15bfcd9445c622
-SHA256: 29b4f2baa17c1c7820c96d8f7d10ca474664a9b9f65126cabba2b661c5756e56
-SHA512: 7dc3299f8e0d7619cc37185bb88759c08ff042205134e4d97a9e5db85208bd1581a4d9844c69d3149c19ce1e3852636d750e9a06054e9bfda2a2bf4c77983d04
+Size: 38302
+MD5sum: e2d929ae6c8b49a3af04016292830834
+SHA1: ff1485bc5a85646269f8d1762e3f6053e42e5b46
+SHA256: f34d51093f5b5c174303ad84491f2b5ea17dd4daf19e7f999e7f49239de0a182
+SHA512: 48729c174131ad66eb3e56d801fda9d48338b8544ee659a7afdccefaa9950536d844e8557beeb0570cc220384373ad3f89f5026e0eea911fa0674638c18b8228
 Description: Node version management
 
 Package: nvim
 Architecture: all
 Version: 0.10.4
-Maintainer: apt@softvisio.net
+Maintainer: deb@softvisio.net
 Installed-Size: 42264
 Depends:
 Recommends:
 Conflicts:
 Replaces:
 Filename: dists/binary-all/nvim_0.10.4_all.deb
-Size: 11880988
-MD5sum: 9fa13520064c06062641689618fd0406
-SHA1: bffd546c642342ad25a1669e3e390e47e8ac65fc
-SHA256: fd957ffc680572217a622a6935bb9236425c33f0040a3e4ec9e675c9756cf932
-SHA512: e6f486872b9b8cac937c29ca09a193aacb9c3c1ee104dcfe5127a9f7d1932ed076ab7de938728277ecddebd367c0e87a6a7d395db90401b2086e8c7d04f81dad
+Size: 11880992
+MD5sum: 61b981f112ad8c1926acf7482f1a359e
+SHA1: 72270641160fb0198901348ede4bb60c5448ea75
+SHA256: 691e59d0010392c4497b85acd18692e38480141ba377da4b39de6711fdd4f3f9
+SHA512: 520e0f857a77a26ec37d4bb8f13250d304add1aa8e1f3fbed728d63bd3322ed180bf2d28ae9d205276bb3328251a7128ff75dd1e160c99cac3c97f7edcf6eea9
 Description: Neovim stable build
 
 Package: repo-bcompare

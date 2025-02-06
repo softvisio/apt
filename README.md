@@ -88,14 +88,14 @@ Build packages:
 
 ```shell
 # build all packages
-softvisio-cli deb build
+softvisio-cli debian-repository build-packages
 
 # build "nginx-latest" package
-softvisio-cli deb build nginx-latest
+softvisio-cli debian-repository build-packages nginx-latest
 ```
 
 Update repository data:
 
 ```shell
-softvisio-cli deb update
+softvisio-cli debian-repository update
 ```
